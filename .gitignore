@@ -1,0 +1,39 @@
+.DS_Store
+Thumbs.db
+
+# Local/editor state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary output
+*.log
+tmp/
+temp/
+.tmp/
+
+# Node / JS experiments
+node_modules/
+dist/
+build/
+.vite/
+.next/
+.turbo/
+coverage/
+
+# Python experiments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated local artifacts
+*.local.*
+*.generated.*
