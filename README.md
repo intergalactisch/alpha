@@ -105,6 +105,7 @@ Current repo working areas:
 - [Memory Consent Gradient](docs/51-memory-consent-gradient.md): how Alpha can remember helpfully without constant approval fatigue or hidden permanent memory.
 - [Dynamic Contextual Clustering](docs/52-dynamic-contextual-clustering.md): how Alpha can use tags, metadata, artifacts, memory, intent, and context to form real-time provisional clusters.
 - [Waiting, Processing, Queues And Loops](docs/53-waiting-processing-queues-and-loops.md): how Alpha handles loading, processing, queued work, loops, delays, and background tasks with calm legibility.
+- [Alpha Artifacts](docs/54-alpha-artifacts.md): artifacts as shaped holders of intent, context, state, memory, permission, process, and possible next actions.
 - [MVP Options](docs/mvp/01-mvp-options.md): possible beachheads and wedge products.
 - [Alpha Social Game Master](docs/mvp/02-alpha-social-game-master.md): one vivid MVP probe for the social-life edge of the broader paradigm.
 - [Research Map](docs/research/01-research-map.md): assumptions, questions, and investigation threads.

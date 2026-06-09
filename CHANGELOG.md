@@ -12,6 +12,7 @@ Alpha is still abstract and alive. Entries should describe meaningful conceptual
 - Added repo areas for specs, protocols, roadmap thinking, and explorations.
 - Added public collaboration guidance through `CONTRIBUTING.md`.
 - Added first protocol and spec indexes so future precision has a place without collapsing the concept too early.
+- Added `Alpha Artifacts` as a dedicated concept document.
 
 ### Framed
 

@@ -125,6 +125,40 @@ Clusters must remain editable, scoped, askable, and subordinate to the user's me
 
 Every Alpha artifact should be able to activate, handle, and influence clusters without becoming a surveillance object.
 
+## 4b. Alpha Artifact
+
+An Alpha artifact is a shaped holder of intent, context, state, memory, permission, process, and possible next actions.
+
+It is not merely a file, post, task, app screen, generated output, or database record.
+
+It is a form that helps meaning stay visible, editable, shareable, revisable, and deletable.
+
+An artifact can be:
+
+- private
+- shared
+- temporary
+- durable
+- playful
+- serious
+- unfinished
+- generated
+- human-made
+- co-created
+- digital
+- physical
+- mixed
+
+An Alpha artifact should be able to answer:
+
+> What intent shaped me, what context matters, who may see or change me, what state am I in, and what can happen next?
+
+Artifacts are one way Alpha moves beyond static apps.
+
+In the old paradigm, apps hold functionality.
+
+In Alpha, artifacts can hold meaning.
+
 ## 5. Memory Object
 
 A memory object is a protected artifact of life continuity.
