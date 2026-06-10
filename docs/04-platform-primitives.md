@@ -50,7 +50,7 @@ If a primitive only works because one provider behaves in one specific way, the 
 
 ## 1. Intent
 
-Sourced direction around what a person, group, agent, process, or context signal is trying to pursue, explore, understand, protect, prepare, or change.
+Sourced direction around what a person, group, agent, Activity signal, or context signal is trying to pursue, explore, understand, protect, prepare, or change.
 
 Intent is not owned by Alpha.
 
@@ -60,7 +60,7 @@ But the living intent remains situated in its source and context.
 
 Intent is not always spoken by a user.
 
-Alpha may also form derived operational intents through agents, sub-agents, process signals, boundary checks, context changes, non-events, or system observations.
+Alpha may also form derived operational intents through agents, sub-agents, Activity signals, boundary checks, context changes, non-events, or system observations.
 
 That does not make every intent equal.
 
@@ -110,7 +110,7 @@ An Intent may open a new Thread or enter an existing Thread when the scope is cl
 
 A Thread can be tiny, quiet, temporary, or fulfilled in seconds.
 
-It can also become durable, shared, revisited, forked, merged, or connected to many artifacts and process states.
+It can also become durable, shared, revisited, forked, merged, or connected to artifacts and current Activity.
 
 Thread prevents Alpha from leaving the movement to loose model inference without a shared reference.
 
@@ -131,7 +131,7 @@ Thread can help Alpha answer:
 - which parts of Align changed understanding
 - which Outcome is current
 - which artifacts support the Outcome
-- which process states are waiting
+- what is waiting or active
 - which agents acted inside scope
 - which boundaries apply
 
@@ -194,7 +194,7 @@ The Life Graph is Alpha's queryable context and relationship engine.
 
 It is Alpha-native but human-governed.
 
-It connects threads, intents, Align, artifacts, memory representations, processes, boundaries, people, groups, contexts, outcomes, sources, tools, agents, and graph events through scoped, permission-aware relationships.
+It connects threads, intents, Align, artifacts, memory representations, Activity, boundaries, people, groups, contexts, outcomes, sources, tools, agents, and graph events through scoped, permission-aware relationships.
 
 The Life Graph owns:
 
@@ -210,7 +210,7 @@ The Life Graph does not own:
 - artifact content
 - memory continuity
 - permission authority
-- process execution
+- work execution
 - rendering
 - provider behavior
 
@@ -222,7 +222,7 @@ Core rules:
 
 Experience is not a separate graph primitive.
 
-An experience emerges from Life Graph queries, artifacts, process state, outcomes, rendering, and context.
+An experience emerges from Life Graph queries, artifacts, Activity, outcomes, rendering, and context.
 
 ## 4a. Contextual Clustering
 
@@ -274,7 +274,7 @@ An Alpha artifact is a small accountable digital handle.
 
 It is not a container for the whole system.
 
-It can represent, reference, or activate intent, context, memory material, process state, boundaries, relationships, or outcomes, but it does not own those responsibilities.
+It can represent, reference, or activate intent, context, memory material, Activity, boundaries, relationships, or outcomes, but it does not own those responsibilities.
 
 Canonical core:
 
@@ -350,7 +350,7 @@ That identifier should make it possible to ask:
 - Which agent did this?
 - Which model, tool, or provider powered it?
 - Which capability contract allowed it?
-- Which intent or process spawned it?
+- Which Intent, agent, or Activity made it necessary?
 - What authority did it have?
 - What did it affect?
 - Can it be paused, replaced, inspected, or stopped?
@@ -444,17 +444,25 @@ The interface should exist because the experience needs it, not because the prod
 
 Generated interfaces must be provenance-aware. If a UI asks the user to approve money, messages, business actions, private memories, or public publishing, it should clearly show what system or agent produced it and what action approval will trigger.
 
-## 8a. Process Layer And Process State
+## 8a. Activity Layer And Activity
 
-The Process Layer owns dynamic work state.
+The Activity Layer owns live movement around work, waiting, attention, queues, loops, and recovery.
 
-Process State represents what is currently happening with work underway.
+Activity represents what is currently happening with something underway.
+
+It is Alpha's answer to:
+
+> what are you busy with right now?
+
+or:
+
+> where does this stand?
 
 It may include:
 
 - intent being served
 - current task
-- current state
+- current activity
 - started time
 - elapsed time
 - approximate expectation
@@ -469,7 +477,7 @@ It may include:
 - cancellation or pause state
 - recovery state
 
-The user should not have to manage process state manually.
+The user should not have to manage Activity manually.
 
 But Alpha should be able to explain:
 
@@ -485,14 +493,74 @@ and:
 
 Use:
 
-- **Process Layer** for dynamic work responsibility.
-- **Process State** for current condition.
-- **Process Artifact** for a handleable representation.
-- **Process View** for rendering or query perspective.
+- **Activity Layer** for live work responsibility.
+- **Activity** for what is currently happening, waiting, blocked, moving, recovering, or asking attention.
+- **Activity Artifact** for a handleable representation.
+- **Activity View** for rendering or query perspective.
 
 Canonical rule:
 
-> Process is state; artifacts handle it; views show it; the Life Graph connects it.
+> Activity is what is alive, moving, waiting, blocked, or asking attention right now.
+
+## 8b. Task
+
+A Task is a concrete unit of work.
+
+It may be follow-up work, but it does not have to be only after Outcome.
+
+A Task can emerge from:
+
+- Intent
+- Align
+- Outcome
+- an artifact needing review, revision, or creation
+- a Boundary gate
+- Activity
+- an agent or sub-agent operating within scope
+
+Task is not Alpha's default shape.
+
+Many Intents should never become Tasks.
+
+For example:
+
+> "I want to watch Rocky 3 again."
+
+This starts as Intent.
+
+It becomes a Task only if concrete work appears:
+
+- find where Rocky 3 is available
+- add it to a watch list
+- remind me this weekend
+- plan watching it with someone
+
+If no concrete work is needed, no Task is needed.
+
+A user-meaningful Task should point to a Thread.
+
+The Thread gives the Task its organizing reference.
+
+But Task should not be owned by Outcome, Thread, or Artifact.
+
+Use:
+
+- **Task** for the concrete unit of work.
+- **Activity** for whether that work is waiting, running, blocked, cancelled, completed, or recovering.
+- **Activity View** or another View for showing current open work.
+- **Task Artifact** only when the task itself needs a handleable representation.
+
+Internal operations such as retries, index refreshes, token expiry, provider repair, or low-level maintenance should not become Alpha Tasks by default.
+
+If an internal operation becomes user-facing, authority-relevant, risky, or meaningfully affects a person, it should point to a Thread or open one.
+
+Canonical rule:
+
+> Task is concrete work; Activity is what is happening with it.
+
+Another rule:
+
+> Tasks should point to Thread when they matter, but Alpha should not turn every Intent into a Task.
 
 ## 9. Simulation Layer
 
@@ -541,7 +609,7 @@ Eventually Alpha can coordinate external action:
 - human helpers
 - robots and devices
 
-This may connect Threads, Intents, and Outcomes to processes, artifacts, actions, or no visible output at all.
+This may connect Threads, Intents, and Outcomes to Activity, artifacts, actions, or no visible output at all.
 
 The first MVP can simulate fulfillment manually or require user approval for every step.
 

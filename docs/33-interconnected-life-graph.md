@@ -34,7 +34,7 @@ It is part of how Alpha understands:
 - what they are connected to
 - which Thread scopes the current movement
 - which artifacts came from which intents
-- which processes are moving or waiting
+- which Activity is moving or waiting
 - which boundaries apply
 - which context is relevant
 - which parts form a situation
@@ -77,9 +77,10 @@ The graph should make many relationship and context questions cheap enough to as
 The Life Graph should help Alpha answer:
 
 - Which Thread does this belong to?
-- Which Intents, Align, Outcomes, artifacts, process states, agents, and boundaries are connected around this Thread?
+- Which Intents, Align, Outcomes, artifacts, Activity, agents, and boundaries are connected around this Thread?
+- Which Tasks point to this Thread, and what made them necessary?
 - Which artifacts came from this intent?
-- Which processes are blocked by the same boundary?
+- Which Activity is blocked by the same boundary?
 - Which artifacts, people, contexts, and outcomes are connected to this situation?
 - Which old context may influence this current choice?
 - Which shared artifacts exist between these people?
@@ -133,7 +134,8 @@ Possible node families include:
 - intents
 - people
 - groups
-- processes
+- activities
+- tasks
 - boundaries
 - permissions
 - outcomes
@@ -181,20 +183,22 @@ Examples:
 - this Outcome belongs to this Thread
 - this Outcome answers this Intent
 - this Outcome was shaped by Align
-- this process is blocked by this boundary
+- this Activity is blocked by this boundary
 - this memory representation is sensitive in this context
 - this preference applies to this period, not forever
 - this artifact belongs to this shared group context
 - this artifact belongs to this Thread
 - this artifact supports this Outcome
-- this process state belongs to this Thread
-- this process state serves this Outcome
+- this Task points to this Thread
+- this Task was caused by this artifact, boundary, Activity, agent, Align, or Outcome
+- this Activity belongs to this Thread
+- this Activity serves this Outcome
 - this outcome was shaped by these three intents
 - this provider contributed to this generated artifact
 - this specific agent initiated this derived intent
-- this sub-agent was spawned by this process
+- this sub-agent was spawned for this Activity
 - this agent acted under this capability contract
-- this action may affect this person, process, or relationship
+- this action may affect this person, Activity, or relationship
 
 Possible relationship claim types:
 
@@ -228,7 +232,7 @@ The important principle:
 
 The Life Graph does not decide meaning by itself.
 
-It stores and queries relationship claims created, proposed, corrected, rejected, or confirmed by the person, relevant authority, Align, agents within scope, Process Layer, Boundary Layer, artifacts, providers, tools, or explicit correction.
+It stores and queries relationship claims created, proposed, corrected, rejected, or confirmed by the person, relevant authority, Align, agents within scope, Activity Layer, Boundary Layer, artifacts, providers, tools, or explicit correction.
 
 Thread provides required scope.
 
@@ -297,7 +301,7 @@ Examples:
 - intent artifact -> outcome artifact
 - finding artifact -> decision artifact
 - creative draft -> public work artifact
-- process artifact -> completed result artifact
+- Activity Artifact -> completed result artifact
 - private note -> shared agreement artifact
 - context snapshot -> boundary artifact
 - playlist draft -> shared party artifact
@@ -333,7 +337,7 @@ Possible views:
 - Open Work View
 - artifact lineage view
 - boundary and safety view
-- process view
+- Activity View
 - transparency view
 - Alpha-to-Alpha envelope view
 - child-safe view
@@ -351,7 +355,7 @@ For example:
 - a provider may receive only a filtered capability input
 - another Alpha may receive only a consented envelope
 - a child may see a child-appropriate learning view
-- a recovery tool may see process state without private memories
+- a recovery tool may see Activity without private memories
 
 ## How Parts Connect
 
@@ -438,7 +442,7 @@ Core rule:
 
 > Shared Life Graphs are consented overlaps, not merged lives.
 
-A personal Life Graph may hold relations around one person's intents, artifacts, memories, preferences, boundaries, processes, and outcomes.
+A personal Life Graph may hold relations around one person's intents, artifacts, memories, preferences, boundaries, Activity, and outcomes.
 
 A shared Life Graph may emerge around:
 
@@ -457,7 +461,7 @@ A personal or shared Thread can provide scoped continuity inside those graphs.
 
 Thread does not merge lives.
 
-It gives Alpha a consented reference for the movement around Intent, Align, Outcome, artifacts, process states, agents, and boundaries.
+It gives Alpha a consented reference for the movement around Intent, Align, Outcome, artifacts, Activity, agents, and boundaries.
 
 A shared Life Graph should not expose each person's private graph.
 
@@ -467,7 +471,7 @@ It should hold only the shared overlap:
 - shared decisions
 - shared boundaries
 - shared plans
-- shared process state
+- shared Activity
 - shared context that has consent to be shared
 
 ## Alpha-To-Alpha Communication

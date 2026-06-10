@@ -70,7 +70,7 @@ Agents should also remain identifiable.
 
 Alpha may use many agents, sub-agents, harnesses, and model-backed workers, but they must not collapse into one vague `Agent`.
 
-Each agent or sub-agent should have a scoped identifier, capability contract, authority scope, lineage, and process context.
+Each agent or sub-agent should have a scoped identifier, capability contract, authority scope, lineage, and Activity context.
 
 This matters because intent, provenance, responsibility, and rollback depend on knowing which actor did what.
 
@@ -142,7 +142,7 @@ Alpha protocols should define:
 - how context is scoped
 - how artifacts are described
 - how permissions travel
-- how processes report state
+- how Activity reports condition
 - how memories are referenced without being exposed
 - how Alpha-originated findings are made inspectable
 - how actions are proposed, approved, executed, reversed, or refused
@@ -213,7 +213,7 @@ The Life Graph can provide:
 - artifact references
 - relevant boundaries
 - permission-scoped summaries
-- process state
+- Activity
 - purpose-bound envelopes
 
 It should not leak:
@@ -239,7 +239,7 @@ Future Alpha tooling should make it easy to:
 - test capability contracts
 - swap providers
 - run local providers
-- inspect process state
+- inspect Activity
 - replay safe traces
 - verify permission boundaries
 - simulate Alpha-to-Alpha exchange

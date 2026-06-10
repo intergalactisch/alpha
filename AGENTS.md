@@ -85,7 +85,7 @@ Examples:
 
 - `Memory Layer`, not `Memory Object`, for continuity stewardship.
 - `Thread`, not project, folder, status machine, or chat thread, for the organizing reference around Intent, Align, and Outcome.
-- `Process Layer` and `Process State`, not a catch-all process object.
+- `Activity Layer` and `Activity`, not a catch-all process object.
 - `Boundary Layer`, not `Permission Ledger`, for authoritative limits and permissions.
 - `Life Graph`, not `Experience Graph`, for the queryable context and relationship engine.
 - `Capability Contract`, not provider-specific integration logic.
@@ -115,7 +115,7 @@ Canonical line:
 
 Owns: the organizing reference around Intent, Align, and Outcome.
 
-Does not own: Intent source, the act of aligning, Outcome meaning, artifact content, process state, graph relationships, memory continuity, boundary authority, rendering, provider behavior, execution permission, lifecycle ceremony, or status by default.
+Does not own: Intent source, the act of aligning, Outcome meaning, artifact content, Activity, graph relationships, memory continuity, boundary authority, rendering, provider behavior, execution permission, lifecycle ceremony, or status by default.
 
 Canonical line:
 
@@ -125,7 +125,7 @@ Canonical line:
 
 Owns: the aligned understanding of what would make Intent meaningfully true enough in context.
 
-Does not own: the living intent, Thread reference, the act of aligning, process execution, or fulfillment.
+Does not own: the living intent, Thread reference, the act of aligning, work execution, or fulfillment.
 
 Canonical line:
 
@@ -135,7 +135,7 @@ Canonical line:
 
 Owns: the act of reaching shared understanding between Alpha and the relevant authority.
 
-Does not own: Intent source, Thread reference, Outcome meaning, fulfillment, memory authority, boundary authority, or process state.
+Does not own: Intent source, Thread reference, Outcome meaning, fulfillment, memory authority, boundary authority, or Activity.
 
 Canonical line:
 
@@ -145,7 +145,7 @@ Canonical line:
 
 Owns: a small accountable digital handle.
 
-Does not own: memory, permissions, process, rendering, graph relationships, alignment, or provider behavior.
+Does not own: memory, permissions, Activity, rendering, graph relationships, alignment, or provider behavior.
 
 Canonical line:
 
@@ -155,7 +155,7 @@ Canonical line:
 
 Owns: queryable relationships, scoped context, graph events, and views.
 
-Does not own: artifact content, memory continuity, permissions authority, process execution, or rendering.
+Does not own: artifact content, memory continuity, permissions authority, work execution, or rendering.
 
 Canonical line:
 
@@ -197,20 +197,36 @@ Canonical line:
 
 > Memory is continuity; artifacts are handles; the graph connects them.
 
-### Process Layer
+### Activity Layer
 
-Owns: dynamic work state.
+Owns: live movement around work, waiting, attention, queues, loops, and recovery.
 
 Use:
 
-- **Process Layer** for dynamic work responsibility.
-- **Process State** for current condition.
-- **Process Artifact** for a handleable representation.
-- **Process View** for rendering/query perspective.
+- **Activity Layer** for live work responsibility.
+- **Activity** for what is currently happening, waiting, blocked, moving, recovering, or asking attention.
+- **Activity Artifact** for a handleable representation.
+- **Activity View** for rendering/query perspective.
 
 Canonical line:
 
-> Process is state; artifacts handle it; views show it; the Life Graph connects it.
+> Activity is what is alive, moving, waiting, blocked, or asking attention right now.
+
+### Task
+
+Owns: a concrete unit of work.
+
+Does not own: Intent, Thread reference, Align, Outcome, Activity, artifact content, boundary authority, or execution permission.
+
+Tasks may emerge from Intent, Align, Outcome, artifacts, boundaries, Activity, or scoped agents.
+
+User-meaningful Tasks should point to a Thread.
+
+Internal operations should not become Alpha Tasks by default.
+
+Canonical line:
+
+> Task is concrete work; Activity is what is happening with it.
 
 ### Boundary Layer
 
@@ -248,7 +264,7 @@ Owns: scoped identity for every agent, sub-agent, tool-using role, or automated 
 
 Agents must not collapse into one generic `Agent`.
 
-Each agent or sub-agent should have its own identifier, role, capability contract, authority scope, lineage, and current process context.
+Each agent or sub-agent should have its own identifier, role, capability contract, authority scope, lineage, and current Activity context.
 
 Canonical line:
 
@@ -258,13 +274,13 @@ Canonical line:
 
 Owns: how something appears or is spoken now.
 
-Does not own: artifact meaning, graph relationships, memory, permissions, or process state.
+Does not own: artifact meaning, graph relationships, memory, permissions, or Activity.
 
 ### Alignment Layer
 
 Owns: drift checking.
 
-It checks whether Alpha's interpretation, action, artifact, or process still fits intent, context, boundaries, permission, care, and outcome.
+It checks whether Alpha's interpretation, action, artifact, or Activity still fits intent, context, boundaries, permission, care, and outcome.
 
 ## Building Methodology
 
@@ -292,14 +308,14 @@ Do not create a second concept that solves the same problem with different langu
 
 Current resolved decisions:
 
-- `Experience Graph` should not be a canonical primitive. Experience is an emergent composition from Life Graph queries, artifacts, process state, outcomes, rendering, and context.
+- `Experience Graph` should not be a canonical primitive. Experience is an emergent composition from Life Graph queries, artifacts, Activity, outcomes, rendering, and context.
 - `Contextual Cluster` is a Life Graph capability, not a separate object-world.
 - `Memory Object` should not be canonical. Use Memory Layer, Memory Representation, and Memory Artifact.
-- `Process Object` should not be canonical. Use Process Layer, Process State, Process Artifact, and Process View.
+- `Process Object` should not be canonical. Use Activity Layer, Activity, Activity Artifact, and Activity View.
 - `Permission Ledger` should not be canonical. Use Boundary Layer and related boundary terms.
 - `Intent Object` should not be the canonical name. Use `Intent` for sourced direction, and use Intent Artifact, Intent State, or Intent Context Envelope only when the form requires it.
 - `Outcome Contract` should not be the canonical name. Use `Outcome` for what would make intent meaningfully true enough in context; use Outcome State, Outcome Artifact, Outcome View, or Outcome Protocol when the form requires it.
-- `Thread` is the canonical organizing reference around Intent, Align, and Outcome. It should not become a project, folder, task list, status machine, chat thread, Life Graph, Process Layer, artifact container, or permission system.
+- `Thread` is the canonical organizing reference around Intent, Align, and Outcome. It should not become a project, folder, task list, status machine, chat thread, Life Graph, Activity Layer, artifact container, or permission system.
 
 Intent, Align, and Outcome rule:
 

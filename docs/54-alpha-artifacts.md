@@ -20,7 +20,7 @@ Shorter:
 
 An artifact is a handle, not a container for the whole system.
 
-It can represent, reference, or activate Thread scope, intent, context, memory material, process state, boundaries, relationships, or outcomes.
+It can represent, reference, or activate Thread scope, intent, context, memory material, Activity, boundaries, relationships, or outcomes.
 
 It does not own those responsibilities.
 
@@ -67,7 +67,7 @@ An artifact gives the person something to hold, inspect, change, share, pause, c
 An artifact can be practical:
 
 - a plan for the week
-- a process artifact
+- an Activity Artifact
 - a budget sketch
 - a travel arrangement
 - a business concept
@@ -139,7 +139,7 @@ An artifact may be:
 - a proposal
 - a boundary
 - a memory artifact
-- a process artifact
+- an Activity Artifact
 - a shared object
 - a private experiment
 - a cultural contribution
@@ -183,7 +183,7 @@ An artifact may reference or be surrounded by:
 - intent references
 - local context
 - memory representations
-- process state
+- Activity
 - Boundary Layer authority
 - Life Graph relations
 - graph events
@@ -272,21 +272,21 @@ Boundaries should not be hidden in account settings far away from the artifact.
 
 They should be inspectable near the thing they govern.
 
-## Artifact And Process
+## Artifact And Activity
 
-Artifacts may represent process state.
+Artifacts may represent Activity.
 
-They do not own process state.
+They do not own Activity.
 
-The Process Layer owns dynamic work.
+The Activity Layer owns live movement.
 
-A Process Artifact can make that work handleable.
+An Activity Artifact can make that movement handleable.
 
-A Process View can show it.
+An Activity View can show it.
 
 The Life Graph connects it to Thread scope, intent, boundaries, tools, people, and outcomes.
 
-When useful, Alpha should expose process state calmly.
+When useful, Alpha should expose Activity calmly.
 
 Not as raw errors.
 
@@ -335,7 +335,7 @@ It means the artifact is not trapped inside one interface.
 
 An artifact can invite action, but should not force action.
 
-The available actions are derived by Alpha from artifact type, status, Thread scope, Life Graph context, Boundary Layer authority, Process State, and current medium.
+The available actions are derived by Alpha from artifact type, status, Thread scope, Life Graph context, Boundary Layer authority, Activity, and current medium.
 
 Possible next actions might include:
 
@@ -355,7 +355,7 @@ Possible next actions might include:
 - publish
 - contact someone
 - generate a fitting interface
-- start a process
+- start work
 - do nothing
 
 The right to do nothing matters.
@@ -474,7 +474,7 @@ An artifact is not Alpha-shaped when it:
 - exposes children to adult burdens
 - forces action where rest or refusal should be allowed
 - treats old context as permanent truth
-- becomes a second Life Graph, Memory Layer, Process Layer, Boundary Layer, or rendering system
+- becomes a second Life Graph, Memory Layer, Activity Layer, Boundary Layer, or rendering system
 
 ## A Useful Test
 
@@ -497,7 +497,7 @@ Artifacts connect many Alpha primitives:
 - a contextual cluster can include an artifact
 - memory material can be represented through a Memory Artifact
 - a generated interface can render an artifact
-- process state can be represented through a Process Artifact
+- Activity can be represented through an Activity Artifact
 - the Boundary Layer can govern an artifact
 - agent roles can shape or maintain an artifact
 
@@ -509,7 +509,7 @@ But they may be one of the main ways Alpha becomes visible.
 
 ## Current Working Sentence
 
-> Alpha artifacts are small accountable handles that help intent, context, state, memory material, process, boundaries, or outcomes become handleable without becoming trapped in static apps, feeds, files, or forced workflows.
+> Alpha artifacts are small accountable handles that help intent, context, Activity, memory material, boundaries, or outcomes become handleable without becoming trapped in static apps, feeds, files, or forced workflows.
 
 Even shorter:
 

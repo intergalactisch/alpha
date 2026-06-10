@@ -33,7 +33,8 @@ Every Alpha spec should try to state:
 - Personal Intent Space Spec
 - Memory Consent Spec
 - Life Graph Clustering Spec
-- Process State Spec
+- Activity Spec
+- Task Spec
 - Artifact Spec
 - Boundary Layer Spec
 - Media-Agnostic Option Spec

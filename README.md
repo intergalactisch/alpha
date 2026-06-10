@@ -109,8 +109,8 @@ Foundational architecture law:
 - [Media-Agnostic Options And Forms](docs/50-media-agnostic-options-and-forms.md): how Alpha can offer editable options through speech, screens, conversation, artifacts, or other fitting media.
 - [Memory Consent Gradient](docs/51-memory-consent-gradient.md): how Alpha can remember helpfully without constant approval fatigue or hidden permanent memory.
 - [Dynamic Contextual Clustering](docs/52-dynamic-contextual-clustering.md): how the Life Graph can form real-time provisional groupings from tags, metadata, artifacts, memory, intent, and context.
-- [Waiting, Processing, Queues And Loops](docs/53-waiting-processing-queues-and-loops.md): how Alpha handles loading, processing, queued work, loops, delays, and background tasks with calm legibility.
-- [Alpha Artifacts](docs/54-alpha-artifacts.md): artifacts as small accountable digital handles that can support intent, context, state, memory, boundaries, process, and possible next actions.
+- [Waiting, Activity, Queues And Loops](docs/53-waiting-processing-queues-and-loops.md): how Alpha handles loading, processing, queued work, loops, delays, and background tasks with calm legibility.
+- [Alpha Artifacts](docs/54-alpha-artifacts.md): artifacts as small accountable digital handles that can support intent, context, Activity, memory, boundaries, and possible next actions.
 - [Artifact Grammar And Families](docs/55-artifact-grammar-and-families.md): artifact core, families, roles, lineage, visibility, and supporting purpose.
 - [Protocol-Native Provider-Agnostic Alpha](docs/56-protocol-native-provider-agnostic.md): the constitutional architecture principle that Alpha depends on contracts, protocols, and interchangeable capabilities, not any provider.
 - [Intent, Align, Outcome](docs/57-intent-align-outcome.md): the current Alpha core movement from sourced direction to shared understanding of meaningful enoughness.

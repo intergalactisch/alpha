@@ -277,7 +277,7 @@ Agent identity should connect to:
 
 - role
 - capability contract
-- current process
+- current Activity
 - source intent
 - derived operational intent
 - authority scope

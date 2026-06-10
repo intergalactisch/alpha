@@ -14,7 +14,7 @@ No provider should define the envelope's meaning.
 
 ## Purpose
 
-An Intent Context Envelope carries enough information for a person, agent, tool, artifact, or process to understand:
+An Intent Context Envelope carries enough information for a person, agent, tool, artifact, service, or Alpha-shaped part to understand:
 
 - who or what is sending or acting
 - which Thread scopes the movement
@@ -31,7 +31,7 @@ An Intent Context Envelope carries enough information for a person, agent, tool,
 
 In Alpha, everything is connected.
 
-One condition may come from many intents. Several intents may produce one outcome. One memory may change the meaning of a current action. A process may pause because it needs user input. A media artifact may activate a contextual cluster.
+One condition may come from many intents. Several intents may produce one outcome. One memory may change the meaning of a current action. Activity may pause because it needs user input. A media artifact may activate a contextual cluster.
 
 Without a shared envelope, parts of the system may act as if they understand each other while silently dropping context.
 
@@ -39,7 +39,7 @@ Without a shared envelope, parts of the system may act as if they understand eac
 
 ### `actor`
 
-The person, group, Alpha agent, sub-agent, tool, process, or external Alpha that created, sent, or is acting through the envelope.
+The person, group, Alpha agent, sub-agent, tool, service, or external Alpha that created, sent, or is acting through the envelope.
 
 AI work must not be attributed to one generic `Agent`.
 
@@ -71,7 +71,7 @@ It should identify the movement enough to preserve authority, boundaries, and ex
 
 Where the current intent came from.
 
-Intent may come from a person, group, agent, sub-agent, process, boundary, context signal, artifact, memory representation, non-event, or prior outcome.
+Intent may come from a person, group, agent, sub-agent, Activity signal, boundary, context signal, artifact, memory representation, non-event, or prior outcome.
 
 Human and group intent can be sovereign.
 
@@ -113,9 +113,9 @@ Documents, images, videos, audio, messages, plans, generated interfaces, code, p
 
 Artifacts can influence clusters and future context.
 
-### `process`
+### `activity`
 
-The current state of work: draft, waiting, queued, running, blocked, sleeping, completed, abandoned, or revised.
+What is currently happening with the work: draft, waiting, queued, running, blocked, sleeping, completed, abandoned, or revised.
 
 ### `uncertainty`
 
@@ -133,7 +133,7 @@ Alpha should be transparent, but not overwhelm people with unnecessary detail un
 
 The smallest useful next move.
 
-This could be asking, drafting, waiting, showing options, doing nothing, starting a process, or handing control back to the person.
+This could be asking, drafting, waiting, showing options, doing nothing, starting work, or handing control back to the person.
 
 ## Minimal Shape
 
@@ -141,7 +141,7 @@ This could be asking, drafting, waiting, showing options, doing nothing, startin
 {
   "actor": {
     "id": "actor_scoped_id",
-    "type": "person | group | alpha_agent | sub_agent | tool | process | external_alpha",
+    "type": "person | group | alpha_agent | sub_agent | tool | service | external_alpha",
     "role": "optional human-readable role",
     "parent_actor_id": "optional",
     "capability_contract": "optional",
@@ -153,7 +153,7 @@ This could be asking, drafting, waiting, showing options, doing nothing, startin
   },
   "intent_source": {
     "source_actor_id": "actor_scoped_id",
-    "source_type": "spoken | inferred | derived | delegated | boundary_triggered | process_triggered | context_triggered",
+    "source_type": "spoken | inferred | derived | delegated | boundary_triggered | activity_triggered | context_triggered",
     "lineage": [],
     "human_authority": "optional person/group authority reference"
   },
@@ -182,8 +182,8 @@ This could be asking, drafting, waiting, showing options, doing nothing, startin
     "sensitivity": "low | medium | high"
   },
   "artifacts": [],
-  "process": {
-    "state": "draft | waiting | queued | running | blocked | sleeping | completed | abandoned | revised",
+  "activity": {
+    "condition": "draft | waiting | queued | running | blocked | sleeping | completed | abandoned | revised",
     "needs_user_input": false
   },
   "uncertainty": [],

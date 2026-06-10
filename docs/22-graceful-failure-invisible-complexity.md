@@ -104,7 +104,7 @@ It should be able to say:
 
 The person should not be left with only a spinner.
 
-See also: [Waiting, Processing, Queues And Loops](53-waiting-processing-queues-and-loops.md).
+See also: [Waiting, Activity, Queues And Loops](53-waiting-processing-queues-and-loops.md).
 
 ## Human-Level Failure Language
 

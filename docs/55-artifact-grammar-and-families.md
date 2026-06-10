@@ -44,7 +44,7 @@ They can represent, carry, reference, or activate something, but they should not
 - Artifacts can hold local context, but they are not context itself.
 - Artifacts can represent, carry, reference, or activate memory, but they are not memory itself.
 - Artifacts can support outcomes, but they are not the outcome.
-- Artifacts can participate in processes, but they are not the whole process.
+- Artifacts can participate in Activity, but they are not the Activity itself.
 - Artifacts can be rendered through interfaces, but they are not the interface itself.
 
 This distinction protects Alpha from becoming an output machine.
@@ -294,7 +294,7 @@ Current artifact families v0:
 1. Intent Artifacts
 2. Context Artifacts
 3. Outcome Artifacts
-4. Process Artifacts
+4. Activity Artifacts
 5. Memory Artifacts
 6. Creative Artifacts
 7. Social Artifacts
@@ -340,7 +340,7 @@ Examples:
 - source bundle for a research question
 - `this used to matter in another phase`
 - `this pattern keeps returning`
-- `this process may be stuck because ownership is unclear`
+- `this Activity may be stuck because ownership is unclear`
 
 Context artifacts may be Alpha-originated.
 
@@ -365,23 +365,23 @@ Examples:
 
 Outcome artifacts should not let Alpha confuse artifact completion with life improvement.
 
-## 4. Process Artifacts
+## 4. Activity Artifacts
 
-Process artifacts hold work in motion.
+Activity artifacts hold work in motion.
 
 They make waiting, queues, loops, blockers, background work, intermediate results, and user input needs legible.
 
 Examples:
 
 - queue item
-- waiting state
+- waiting activity
 - work-in-progress tracker
 - background task summary
-- blocked process note
+- blocked activity note
 - intermediate result
 - checkpoint summary
 
-Process artifacts should reduce mystery without creating administrative burden.
+Activity artifacts should reduce mystery without creating administrative burden.
 
 ## 5. Memory Artifacts
 
@@ -579,7 +579,7 @@ Truthfulness is a cross-cutting obligation, not a single artifact category.
 
 Entertainment is essential to life, but it does not need to be a top-level artifact family right now.
 
-It can appear through creative, personal, social, communication, interface, memory, and process artifacts.
+It can appear through creative, personal, social, communication, interface, memory, and Activity artifacts.
 
 ## Structure, Roles, And Relations
 
@@ -637,7 +637,7 @@ Examples:
 
 For the person, it may feel like one thing.
 
-For Alpha, it may be a connected subgraph of intents, contexts, processes, memories, communications, boundaries, outcomes, and artifacts.
+For Alpha, it may be a connected subgraph of intents, contexts, Activity, memories, communications, boundaries, outcomes, and artifacts.
 
 Composite artifacts should feel like situations, not systems.
 
@@ -664,7 +664,7 @@ For some artifacts, there must be a current version:
 - an active plan
 - a shared agreement
 - a current Boundary State
-- a process status
+- an Activity condition
 - a publication version
 
 For others, many versions can coexist:

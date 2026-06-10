@@ -2,7 +2,7 @@
 
 Protocols describe how Alpha-shaped parts communicate.
 
-The goal is not to create bureaucracy. The goal is to make intent, context, permissions, process, memory, artifacts, uncertainty, and outcomes legible between systems and people.
+The goal is not to create bureaucracy. The goal is to make intent, context, permissions, Activity, memory, artifacts, uncertainty, and outcomes legible between systems and people.
 
 Alpha is protocol-native and provider-agnostic.
 
@@ -42,7 +42,7 @@ Alpha protocols should:
 - Human-To-Alpha Interaction Protocol
 - Thread Protocol
 - Artifact Protocol
-- Process State Protocol
+- Activity Protocol
 - Queue And Waiting Protocol
 - Memory Access Protocol
 - Boundary Protocol

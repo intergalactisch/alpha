@@ -33,7 +33,7 @@ Specs describe Alpha-shaped systems with more precision. They are allowed to be 
 
 ### Protocols
 
-Protocols describe how people, agents, artifacts, memory, context, processes, and other parts can communicate.
+Protocols describe how people, agents, artifacts, memory, context, Activity, and other parts can communicate.
 
 Protocols should support transparency, consent, reversibility, and contextual nuance.
 

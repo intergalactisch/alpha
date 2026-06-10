@@ -22,7 +22,7 @@ If a Thread can do its job with an id, an opening Intent reference, and an evolv
 
 ## Why Thread Exists
 
-Alpha should not leave the relationship between Intent, Align, Outcome, artifacts, process state, agents, boundaries, and future work to loose inference.
+Alpha should not leave the relationship between Intent, Align, Outcome, artifacts, Activity, agents, boundaries, and future work to loose inference.
 
 If Alpha only has isolated Intents and Outcomes, it becomes hard to answer:
 
@@ -47,7 +47,7 @@ Every Intent opens a Thread.
 
 That Thread may be tiny, quiet, temporary, or fulfilled in seconds.
 
-It may also become durable, shared, revisited, forked, merged, or connected to many artifacts and process states.
+It may also become durable, shared, revisited, forked, merged, or connected to many artifacts and Activities.
 
 The point is not size.
 
@@ -65,7 +65,7 @@ Thread owns:
 - the reference for "what this is about"
 - the reference that lets related movement be grouped without becoming a task system
 - the reference for later questions such as "what is still open here?"
-- the reference used to connect artifacts, process states, agents, boundaries, and outcomes through the Life Graph
+- the reference used to connect artifacts, Activity, agents, boundaries, and outcomes through the Life Graph
 
 Thread does not own:
 
@@ -73,7 +73,7 @@ Thread does not own:
 - the act of Aligning
 - Outcome meaning
 - artifact content
-- process state
+- Activity
 - boundary authority
 - memory continuity
 - graph relationship queryability
@@ -192,7 +192,7 @@ They may come from:
 - Intent capture
 - Align
 - agents or sub-agents within scope
-- Process Layer
+- Activity Layer
 - Boundary Layer
 - artifact creation
 - provider or tool adapters
@@ -256,9 +256,9 @@ That does not always mean a new durable Thread.
 
 An Intent may enter an existing Thread when the scope is clear:
 
-- the user starts from an existing Thread, artifact, process, or view
+- the user starts from an existing Thread, artifact, Activity, or view
 - the user says the new Intent belongs to something already underway
-- an agent or process inside a Thread creates a derived operational Intent
+- an agent creates or Activity surfaces a derived operational Intent inside a Thread
 - the current interaction context is already scoped to a Thread
 - Alpha proposes or lightly names the connection, and the relevant authority accepts or can easily correct it when consequence is low
 
@@ -278,7 +278,7 @@ State is one of the easiest ways for Thread to become ceremonial.
 
 Do not add Thread State unless it earns its place later.
 
-If dynamic work must be tracked, use Process State.
+If dynamic work must be tracked, use Activity.
 
 If understanding changes in a way that matters later, keep it explainable through Align.
 
@@ -298,8 +298,9 @@ Alpha can use the Thread to:
 
 - connect artifacts that support the Outcome
 - show what is still open
+- let concrete Tasks point to the same movement when work becomes explicit
 - let agents work within scope
-- hold process states calmly
+- hold Activity calmly
 - detect drift
 - ask for review
 - remember why something exists
@@ -317,7 +318,8 @@ Align: "Low-pressure, no invitations yet."
 Outcome: "Enough means a low-pressure party direction with possible venues and themes, without inviting people yet."
 Artifact: venue findings
 Artifact: invitation draft
-Process State: invitation draft waiting for review
+Task: review invitation draft
+Activity: invitation draft waiting for review
 Boundary State: no external messages without approval
 ```
 
@@ -331,7 +333,7 @@ Alpha can render an Open Work View from the Thread:
 
 That view is not a generic task list.
 
-It is a scoped view over Thread, Outcome, artifacts, Process State, boundaries, and Life Graph relations.
+It is a scoped view over Thread, Outcome, Tasks, artifacts, Activity, boundaries, and Life Graph relations.
 
 Core rule:
 
@@ -347,7 +349,7 @@ It can be rendered from:
 
 - active or waiting Threads
 - Outcomes
-- Process States
+- Activity
 - artifacts needing review
 - approval gates
 - boundary constraints
@@ -389,7 +391,7 @@ For example, a shared party Thread may contain:
 - shared Outcome
 - shared artifacts
 - shared decisions
-- shared process state
+- shared Activity
 - consented boundaries
 
 It should not expose:
@@ -457,7 +459,7 @@ Correction:
 
 Risk:
 
-> Thread starts owning artifacts, process state, memory, permissions, or graph relationships.
+> Thread starts owning artifacts, Activity, memory, permissions, or graph relationships.
 
 Correction:
 

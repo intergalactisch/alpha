@@ -49,7 +49,7 @@ Specs make concepts more precise.
 
 ### Protocols
 
-Protocols define communication between people, agents, artifacts, memory, context, and process.
+Protocols define communication between people, agents, artifacts, memory, context, and Activity.
 
 ### Explorations
 

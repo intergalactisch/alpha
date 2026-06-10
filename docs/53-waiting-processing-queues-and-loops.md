@@ -1,4 +1,4 @@
-# Waiting, Processing, Queues And Loops
+# Waiting, Activity, Queues And Loops
 
 Status: conceptual system behavior layer.
 
@@ -44,7 +44,7 @@ The old pattern is:
 
 The Alpha pattern is:
 
-> living process state, clear next step, preserved work, respectful waiting.
+> living Activity, clear next step, preserved work, respectful waiting.
 
 ## Loading Is Not Enough
 
@@ -72,19 +72,27 @@ It should not be fake precision.
 
 Alpha should avoid pretending to know exact timing when it does not.
 
-## Process Layer And Process State
+## Activity Layer And Activity
 
-Alpha needs a Process Layer.
+Alpha needs an Activity Layer.
 
-The Process Layer owns dynamic work state.
+The Activity Layer owns live movement around work, waiting, attention, queues, loops, and recovery.
 
-Process State represents what is currently happening with something underway.
+Activity represents what is currently happening with something underway.
 
-Process State may include:
+A Task is a concrete unit of work.
+
+Activity is what is happening with that work.
+
+Not every Intent becomes a Task.
+
+Not every internal operation should become an Alpha Task.
+
+Activity may include:
 
 - intent being served
 - current task
-- current state
+- current activity
 - started time
 - elapsed time
 - approximate expectation
@@ -101,26 +109,26 @@ Process State may include:
 - recovery state
 - who or what is affected
 
-The person should not need to manage process state.
+The person should not need to manage Activity.
 
 But Alpha should be able to show or explain it when helpful.
 
 Use:
 
-- **Process Layer** for dynamic work responsibility.
-- **Process State** for current condition.
-- **Process Artifact** for a handleable representation.
-- **Process View** for rendering or query perspective.
+- **Activity Layer** for live work responsibility.
+- **Activity** for what is currently happening, waiting, blocked, moving, recovering, or asking attention.
+- **Activity Artifact** for a handleable representation.
+- **Activity View** for rendering or query perspective.
 
 Canonical rule:
 
-> Process is state; artifacts handle it; views show it; the Life Graph connects it.
+> Activity is what is alive, moving, waiting, blocked, or asking attention right now.
 
-## Process Views
+## Activity Views
 
-Alpha should support multiple levels of process visibility.
+Alpha should support multiple levels of Activity visibility.
 
-### Local Process View
+### Local Activity View
 
 For one intent, task, artifact, or outcome, Alpha should be able to show:
 
@@ -272,22 +280,22 @@ The user should always be able to ask:
 
 ## Waiting For User Input
 
-Waiting for user input is a valid process state.
+Waiting for user input is valid Activity.
 
 It is not automatically a failure, delay, or broken flow.
 
 Some things should take longer because the person's input matters.
 
-Alpha should not rush past meaningful input just to keep the process moving.
+Alpha should not rush past meaningful input just to keep work moving.
 
-When a process needs input, Alpha should be able to hold it calmly:
+When work needs input, Alpha should be able to hold its Activity calmly:
 
 - what input is needed
 - why it matters
 - what can continue without it
 - what should wait
 - whether the person can return later
-- whether the process is safe to leave open
+- whether the work is safe to leave open
 - what will happen if the input never arrives
 
 The task system should support open input dependencies.
@@ -302,7 +310,7 @@ The Alpha-shaped rule:
 
 ## Useful Checkpoints
 
-Longer processes should be able to expose useful intermediate results.
+Longer work should be able to expose useful intermediate results through Activity.
 
 Intermediate results matter because they let the person:
 
@@ -333,7 +341,7 @@ Checkpoints should be meaningful.
 
 They should help the person shape the result.
 
-For sensitive or high-consequence processes, Alpha may need to wait until a checkpoint is safe and coherent enough to review.
+For sensitive or high-consequence work, Alpha may need to wait until a checkpoint is safe and coherent enough to review.
 
 The Alpha-shaped rule:
 
@@ -341,7 +349,7 @@ The Alpha-shaped rule:
 
 ## Checkpoint Types
 
-Not every checkpoint should stop the process.
+Not every checkpoint should stop the work.
 
 Alpha should distinguish:
 
@@ -365,7 +373,7 @@ Sometimes it can continue without a response.
 
 Sometimes it should wait.
 
-If the person's input matters to the quality, meaning, safety, tone, or direction of the outcome, Alpha should hold the process open rather than assume.
+If the person's input matters to the quality, meaning, safety, tone, or direction of the outcome, Alpha should hold the Activity open rather than assume.
 
 Example:
 
@@ -396,11 +404,11 @@ The Alpha-shaped rule:
 
 > previews inform, steer-points may wait, approval gates must wait.
 
-## States
+## Activity Conditions
 
-Alpha should have human-readable process states.
+Alpha should make Activity human-readable.
 
-Possible states:
+Possible conditions:
 
 - not started
 - thinking
@@ -436,9 +444,9 @@ They should explain reality, not machinery.
 
 ## Stale, Sleeping, Blocked, And Abandoned
 
-Long-running or old processes need nuance.
+Long-running or old Activity needs nuance.
 
-Not every old process is abandoned.
+Not every old Activity is abandoned.
 
 Some things are:
 
@@ -450,7 +458,7 @@ Some things are:
 
 Alpha should not silently delete old intent.
 
-It may gently surface old or stuck processes when useful:
+It may gently surface old or stuck Activity when useful:
 
 > This has been quiet for a while. Is it still alive, sleeping, or should I let it go?
 
@@ -468,7 +476,7 @@ The user should be able to:
 - delete
 - mark no longer relevant
 - update the intent
-- reconnect the process to a new context
+- reconnect the Activity to a new context
 
 Alpha should not shame stale work.
 
@@ -482,7 +490,7 @@ Sometimes something should remain unfinished.
 
 The Alpha-shaped rule:
 
-> old processes should be revisable, not accusatory.
+> old Activity should be revisable, not accusatory.
 
 ## Time And Estimates
 
@@ -518,7 +526,7 @@ The rule:
 
 > always available, not always displayed.
 
-Alpha should be able to show or explain process state whenever it helps.
+Alpha should be able to show or explain Activity whenever it helps.
 
 But low-impact work can often continue quietly in the background.
 
@@ -531,7 +539,7 @@ Status should become more visible when:
 - the person might wonder whether work is safe
 - a delay becomes unusual
 - the person asks
-- the process is blocked
+- the Activity is blocked
 - the next step needs a decision
 
 On a screen, Alpha may show:
@@ -568,7 +576,7 @@ When appropriate, Alpha should allow:
 - return later
 - keep work preserved
 - summarize what changed
-- continue from the last state
+- continue from the last condition
 - stop quietly when the intent no longer matters
 
 But background work must remain bounded.
@@ -637,7 +645,7 @@ Low-consequence tasks can be lighter.
 
 Again:
 
-> process friction should match process consequence.
+> Activity visibility should match consequence.
 
 ## Failure, Delay, And Recovery
 
@@ -683,14 +691,14 @@ Alpha must avoid:
 
 Question:
 
-> If Alpha shows process state, does it become a task manager or technical dashboard?
+> If Alpha shows Activity, does it become a task manager or technical dashboard?
 
 Recommended answer:
 
-> It can, if process state becomes the center. Alpha should show process state only as much as needed for trust, control, and calm. The goal is not to manage tasks. The goal is to make dynamic shaping legible while preserving agency.
+> It can, if Activity becomes the center. Alpha should show Activity only as much as needed for trust, control, and calm. The goal is not to manage tasks. The goal is to make dynamic shaping legible while preserving agency.
 
 ## Current Working Definition
 
 Alpha-shaped waiting means:
 
-> Dynamic work may take time, but the person should never be left inside mystery. Alpha should keep process state legible, controllable, resumable, and calm.
+> Dynamic work may take time, but the person should never be left inside mystery. Alpha should keep Activity legible, controllable, resumable, and calm.

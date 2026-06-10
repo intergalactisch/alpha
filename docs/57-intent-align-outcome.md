@@ -56,7 +56,7 @@ It can come from:
 - a group
 - an agent
 - a sub-agent
-- a process
+- Activity
 - a boundary
 - a context signal
 - a memory representation
@@ -72,7 +72,7 @@ Someone may say:
 
 But Alpha may also detect:
 
-> This process has been waiting for three days.
+> This Activity has been waiting for three days.
 
 Or an agent may form a derived operational intent:
 
@@ -186,7 +186,7 @@ Align should not force every internal movement into a formal object.
 
 Not every agent activation needs a named artifact.
 
-Not every tool call needs to become a process.
+Not every tool call needs to become visible Activity.
 
 Not every thought needs to become visible.
 
@@ -217,7 +217,7 @@ Outcome should be inspectable and editable by the relevant authority.
 
 It should be allowed to change when context changes.
 
-It should remain connected to Intent, boundaries, memory, process, artifacts, and care.
+It should remain connected to Intent, boundaries, memory, Activity, artifacts, and care.
 
 Canonical line:
 
@@ -292,7 +292,7 @@ This can produce:
 - no visible output
 - a clarification
 - an artifact
-- a process
+- Activity
 - a message
 - a media moment
 - a business workflow
@@ -311,7 +311,7 @@ Outcome does not mean the world-result has already happened.
 
 Outcome first means Alpha and the relevant authority have aligned on what would be true enough.
 
-After that, Alpha may help through artifacts, processes, actions, media, communication, tools, agents, or silence.
+After that, Alpha may help through artifacts, Activity, actions, media, communication, tools, agents, or silence.
 
 Those later forms should not be collapsed into the core movement.
 
@@ -329,7 +329,7 @@ Examples:
 
 - A researcher agent intends to compare options.
 - A boundary agent intends to check whether private memory may be used.
-- A process agent intends to resume a waiting task.
+- A scoped agent intends to resume waiting Activity.
 - A recovery agent intends to diagnose a failed tool call.
 - A context agent intends to inspect whether an old memory is relevant.
 
@@ -352,7 +352,7 @@ Human and group Intent can be sovereign.
 
 ### Life Graph
 
-The Life Graph connects Thread, Intent, Align, Outcome, artifacts, memory representations, processes, boundaries, people, agents, tools, and events.
+The Life Graph connects Thread, Intent, Align, Outcome, artifacts, memory representations, Activity, boundaries, people, agents, tools, and events.
 
 It should answer:
 
@@ -362,7 +362,7 @@ It should answer:
 - Which agent initiated this derived Intent?
 - Which boundary changed the meaning?
 - Which artifact made this Outcome inspectable?
-- Which process is currently blocked?
+- Which Activity is currently blocked?
 - Which memory representation changed the context?
 
 The Life Graph should not own Thread, Intent, Align, or Outcome.
@@ -402,9 +402,9 @@ Artifacts are handles.
 
 They are not the Thread, the living Intent, the whole act of Aligning, or the whole Outcome.
 
-### Process Layer
+### Activity Layer
 
-The Process Layer tracks dynamic work:
+The Activity Layer tracks live movement:
 
 - waiting
 - queued
@@ -415,17 +415,17 @@ The Process Layer tracks dynamic work:
 - completed
 - abandoned
 
-Align may create processes.
+Align may open Activity.
 
-Processes may generate new derived Intent.
+Activity may surface new derived Intent.
 
-Processes may update Outcome State.
+Activity may surface the need to update Outcome State.
 
-Process States may belong to a Thread while serving a specific Outcome.
+Activity may belong to a Thread while serving a specific Outcome.
 
-The Thread gives process state a shared reference.
+The Thread gives Activity a shared reference.
 
-The Process Layer still owns dynamic work.
+The Activity Layer still owns live movement.
 
 ### Alignment Layer
 
@@ -433,7 +433,7 @@ The Alignment Layer is different from Align.
 
 Align is the core movement from Intent to Outcome.
 
-The Alignment Layer checks whether Alpha's interpretation, artifact, process, action, or later behavior still fits:
+The Alignment Layer checks whether Alpha's interpretation, artifact, Activity, action, or later behavior still fits:
 
 - Intent
 - Outcome

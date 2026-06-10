@@ -120,7 +120,7 @@ They are replaceable workers, not Alpha's core identity.
 
 They still need identities.
 
-Each agent and sub-agent should have a scoped identifier, role, capability contract, authority scope, lineage, and process context.
+Each agent and sub-agent should have a scoped identifier, role, capability contract, authority scope, lineage, and Activity context.
 
 This lets Alpha trace:
 
@@ -128,7 +128,7 @@ This lets Alpha trace:
 - which agent handled a step
 - which model, provider, or tool powered it
 - which authority allowed it
-- which outcome, artifact, process, or Life Graph relation it affected
+- which outcome, artifact, Activity, or Life Graph relation it affected
 
 Agent-originated intent must remain operational, derived, explainable, and interruptible.
 
@@ -237,7 +237,7 @@ Dynamic work should feel calm and under control, not mysterious.
 
 Alpha should support both:
 
-- a local process view for one intent, artifact, or task
+- a local Activity View for one intent, artifact, or task
 - a calm overview of multiple things currently in motion
 
 The overview should help clarity and control without turning life into a productivity dashboard.
@@ -256,9 +256,9 @@ Approval gates should always stop and wait.
 
 Steer-points may also wait when the person's input meaningfully changes the result.
 
-The process system should be able to hold that wait calmly instead of forcing a default.
+The Activity Layer should be able to hold that wait calmly instead of forcing a default.
 
-Old or quiet processes should be treated with nuance:
+Old or quiet Activity should be treated with nuance:
 
 - stale
 - sleeping
@@ -277,10 +277,10 @@ Conceptually, Alpha can be understood through responsibilities:
 2. Life Graph: retrieves scoped relationships, context, relevant artifacts, and current connectedness.
 3. Memory Layer: preserves, forgets, or shares what should continue.
 4. Boundary Layer: applies consent, permissions, boundaries, provenance, and child safety.
-5. Alignment Layer: checks interpretation, outcome, artifact, process, and action against intent, context, boundaries, care, and aligned result.
+5. Alignment Layer: checks interpretation, outcome, artifact, Activity, and action against intent, context, boundaries, care, and aligned result.
 6. Composition: chooses agents, workflows, tools, media, rituals, interfaces, or no visible form.
 7. Rendering / Interface: presents the right medium, surface, voice, or silence.
-8. Process Layer: tracks waiting, queues, loops, elapsed time, dependencies, and background work.
+8. Activity Layer: tracks live movement around waiting, queues, loops, elapsed time, dependencies, and background work.
 9. Fulfillment: coordinates action in software, markets, communities, institutions, or the physical world.
 10. Recovery: handles failure and invisible complexity.
 11. Adaptation: learns from outcomes without optimizing for addiction.
