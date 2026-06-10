@@ -20,7 +20,7 @@ What it holds, represents, supports, or coordinates can be real-world, social, e
 
 ## Core Definition
 
-> An Alpha artifact is a small accountable handle, surrounded by graph, context, permissions, and rendering.
+> An Alpha artifact is a small accountable handle, surrounded by Life Graph context, Boundary Layer authority, and rendering.
 
 Shorter:
 
@@ -118,6 +118,12 @@ Alpha may create artifacts from meaning, not from noise.
 
 The artifact core should stay small.
 
+It should also stay provider-neutral.
+
+An artifact should not require one model, provider, harness, database, interface, or runtime to understand its basic shape.
+
+Providers may create, transform, render, or analyze artifacts, but the artifact grammar should remain portable.
+
 Core fields:
 
 - `id`
@@ -152,7 +158,7 @@ Examples:
 - `agreement`
 - `draft`
 - `queue_item`
-- `permission_note`
+- `boundary_note`
 - `generated_screen`
 - `learning_path`
 
@@ -235,7 +241,7 @@ Many important artifact properties should be derived by Alpha rather than stored
 Derived layers may include:
 
 - control surface
-- permissions view
+- Boundary View
 - visibility
 - attention behavior
 - lifecycle actions
@@ -509,13 +515,13 @@ The interface is one possible rendering.
 
 ## 12. Boundary Artifacts
 
-Boundary artifacts hold what Alpha may, may not, and must carefully explain.
+Boundary artifacts make handleable what Alpha may, may not, and must carefully explain.
 
 They support permissions, consent, revocation, safety boundaries, child boundaries, memory boundaries, sharing boundaries, cost boundaries, and transparency.
 
 Examples:
 
-- permission note
+- boundary note
 - consent boundary
 - `ask me first`
 - child-safety boundary
@@ -654,7 +660,7 @@ For some artifacts, there must be a current version:
 
 - an active plan
 - a shared agreement
-- a current permission
+- a current Boundary State
 - a process status
 - a publication version
 
@@ -755,7 +761,7 @@ Alpha should be able to explain:
 
 > Artifacts make meaning handleable.
 
-> An artifact is a small accountable handle, surrounded by graph, context, permissions, and rendering.
+> An artifact is a small accountable handle, surrounded by Life Graph context, Boundary Layer authority, and rendering.
 
 > Alpha should measure artifacts by the life they help, not by their existence.
 

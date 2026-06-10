@@ -102,6 +102,20 @@ Alpha and connected systems must not secretly use user devices, data, attention,
 
 Resource use should be visible, scoped, consentful, and revocable.
 
+### Provider And Adapter Leakage
+
+Alpha should not expose raw Life Graph data, memories, private context, child data, sensitive preferences, or cross-context details to models, providers, tools, agents, or services by default.
+
+Every provider should sit behind scoped contracts and adapters.
+
+Provider access should be purpose-bound, minimal, inspectable, and revocable where possible.
+
+### Alpha-To-Alpha Leakage
+
+If Alpha systems communicate with each other, they must not exchange raw personal graphs, raw memories, private schedules, hidden preferences, or unrelated context.
+
+They should communicate through consentful, purpose-bound envelopes that disclose only what is needed for the shared purpose.
+
 ### Dependency And Emotional Capture
 
 Alpha could become too persuasive, too intimate, or too optimized for engagement instead of user flourishing.
@@ -123,6 +137,14 @@ The user can inspect, correct, revoke, pause, delete, export, and override.
 ### Least Privilege By Default
 
 Alpha starts with minimal access and earns specific permissions.
+
+### Protocol-Native And Provider-Agnostic
+
+Alpha should depend on contracts and protocols, not provider identity.
+
+Providers may power Alpha, but protocols define Alpha.
+
+No model, provider, harness, tool, database, interface, cloud, or runtime should become a hidden authority over Alpha's behavior.
 
 ### Context Boundaries Are Sacred
 
@@ -178,7 +200,7 @@ Alpha should preserve work, explain consequences, recover safely, and log diagno
 
 ## Permission And Memory Model
 
-Alpha needs a consent ledger: a clear record of what was granted, when, by whom, for what purpose, and for how long.
+Alpha needs a Boundary Layer that keeps consent and revocation clear: what was granted, when, by whom, for what purpose, and for how long.
 
 Recommended containers:
 

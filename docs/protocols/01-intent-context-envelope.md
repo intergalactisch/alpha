@@ -6,6 +6,12 @@ Early sketch.
 
 This is not a final technical standard. It is a first way to think about how Alpha-shaped parts can exchange meaning without losing human control.
 
+The envelope should be provider-neutral.
+
+It should be usable across models, tools, agents, deterministic services, local runtimes, and future systems.
+
+No provider should define the envelope's meaning.
+
 ## Purpose
 
 An Intent Context Envelope carries enough information for a person, agent, tool, artifact, or process to understand:
@@ -134,11 +140,15 @@ This could be asking, drafting, waiting, showing options, doing nothing, startin
 
 The envelope must not become a hidden surveillance container.
 
+It must also not become a provider-specific payload that only one model, harness, or platform can understand.
+
 It should support:
 
 - data minimization
 - context scoping
 - permission clarity
+- provider-neutral interpretation
+- adapter-based execution
 - reversibility
 - correction
 - deletion

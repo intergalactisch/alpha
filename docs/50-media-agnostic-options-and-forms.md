@@ -324,7 +324,7 @@ Possible fitting forms:
 - a small prompt
 - a note
 - a plan
-- a memory object
+- a memory artifact
 - a song or media moment
 - a game
 - a learning path

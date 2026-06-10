@@ -74,6 +74,16 @@ These are not separate slogans.
 
 They describe one center from different distances.
 
+Foundational architecture law:
+
+> Alpha is protocol-native and provider-agnostic.
+
+This means Alpha's identity should live in its contracts, protocols, artifacts, Life Graph, permissions, transparency, and care.
+
+It should not live inside one model, provider, harness, tool, database, interface, cloud, or runtime.
+
+Providers may power Alpha, but protocols define Alpha.
+
 ## What "Shape Life" Means
 
 "Shape" does not only mean making physical things, fixed outcomes, designed objects, or clean plans.
@@ -164,7 +174,7 @@ Those forms might be:
 - a generated tool
 - a plan
 - a document
-- a memory object
+- a memory artifact
 - a game
 - a song
 - a shared media moment
@@ -267,6 +277,8 @@ The underlying systems can be built from present-day capabilities:
 - multimodal interaction
 - voice and text
 - structured model outputs
+- protocol-native contracts
+- provider-neutral capability routing
 - agents and tool use
 - local-first or sovereign memory
 - consent and permission systems
@@ -281,6 +293,10 @@ The underlying systems can be built from present-day capabilities:
 - energy-aware execution
 
 But the technology is not the paradigm.
+
+No current provider is the paradigm either.
+
+Specific models, tools, harnesses, CLIs, APIs, databases, and clouds should appear as adapters behind Alpha-shaped contracts.
 
 The paradigm is the ordering:
 
@@ -317,6 +333,7 @@ Alpha is still alive.
 These are intentionally not decided yet:
 
 - whether Alpha is one product, many products, a protocol, a layer, or a family of forms
+- which protocols and contracts become stable first
 - whether the first seed field is personal direction, memory, creativity, communication, culture, family life, or something else
 - what the interface looks like
 - what the business model is

@@ -44,10 +44,15 @@ Current repo working areas:
 - [Roadmap](ROADMAP.md): conceptual direction, not a fixed product plan.
 - [Changelog](CHANGELOG.md): visible evolution of the workspace.
 - [Contributing](CONTRIBUTING.md): how to participate without forcing premature certainty.
+- [Agent Operating Map](AGENTS.md): compact methodology for agents shaping Alpha without conceptual overlap.
 - [Public Repo Shape](docs/repo/01-public-repo-shape.md): what this repository is for.
 - [Specs](docs/specs/00-spec-index.md): formal-ish descriptions for things that may need precision later.
 - [Protocols](docs/protocols/00-protocol-index.md): communication contracts between Alpha-shaped parts.
 - [Explorations](explorations/README.md): technical tryouts, implementation sketches, and concrete explorations.
+
+Foundational architecture law:
+
+> Alpha is protocol-native and provider-agnostic: providers may power Alpha, but protocols define Alpha.
 
 ## Concept Map
 
@@ -56,7 +61,7 @@ Current repo working areas:
 - [Paradigm Shift](docs/01-paradigm-shift.md): why static apps give way to outcome-native environments.
 - [Intent-to-Experience Engine](docs/02-intent-to-experience-engine.md): the product primitive and system model.
 - [Domains](docs/03-domains.md): implications for software, tools, social, entertainment, gaming, consuming, economics, robots, business, information, and community.
-- [Platform Primitives](docs/04-platform-primitives.md): the objects Alpha would need if it becomes a runtime.
+- [Platform Primitives](docs/04-platform-primitives.md): the primitives Alpha may need if it becomes buildable infrastructure.
 - [Category Strategy](docs/05-category-strategy.md): how the category might be created without collapsing into old paradigms.
 - [Beyond The Social Wedge](docs/06-beyond-the-social-wedge.md): how Alpha could reshape business creation, economic systems, social systems, media, and information.
 - [Security And Trust](docs/07-security-and-trust.md): why felt safety, sovereignty, consent, and auditability must be native to the paradigm.
@@ -75,7 +80,7 @@ Current repo working areas:
 - [Flowing Media And Shared Joy](docs/20-flowing-media-and-shared-joy.md): music, video, art, play, parties, and entertainment as social, emotional, cultural flows rather than isolated content units.
 - [Memories And Life Continuity](docs/21-memories-and-life-continuity.md): memories as personal and shared life fabric, not platform-owned data.
 - [Graceful Failure And Invisible Complexity](docs/22-graceful-failure-invisible-complexity.md): software should recover, translate, and repair without harassing people with raw errors, bugs, or glitches.
-- [Interconnected Life Graph](docs/33-interconnected-life-graph.md): intents, memories, actions, outputs, people, and state changes as connected, not isolated.
+- [Life Graph](docs/33-interconnected-life-graph.md): the connected layer of life in Alpha; intents, artifacts, memories, contexts, people, processes, boundaries, and outcomes as connected, not isolated.
 - [Alpha Paradigm Map](docs/23-alpha-paradigm-map.md): a synthesis of the old paradigm Alpha is responding to and the new paradigm it could help invoke.
 - [Alpha Operating Model](docs/24-alpha-operating-model.md): what Alpha should do and how it could work without becoming just another app.
 - [Alpha Possibility Space](docs/25-alpha-possibility-space.md): what Alpha could eventually become across life, business, media, culture, memory, economics, and physical reality.
@@ -103,9 +108,11 @@ Current repo working areas:
 - [First Felt Experience](docs/49-first-felt-experience.md): the first Alpha moment where intent becomes clearer, safer, and more shapeable without being captured.
 - [Media-Agnostic Options And Forms](docs/50-media-agnostic-options-and-forms.md): how Alpha can offer editable options through speech, screens, conversation, artifacts, or other fitting media.
 - [Memory Consent Gradient](docs/51-memory-consent-gradient.md): how Alpha can remember helpfully without constant approval fatigue or hidden permanent memory.
-- [Dynamic Contextual Clustering](docs/52-dynamic-contextual-clustering.md): how Alpha can use tags, metadata, artifacts, memory, intent, and context to form real-time provisional clusters.
+- [Dynamic Contextual Clustering](docs/52-dynamic-contextual-clustering.md): how the Life Graph can form real-time provisional groupings from tags, metadata, artifacts, memory, intent, and context.
 - [Waiting, Processing, Queues And Loops](docs/53-waiting-processing-queues-and-loops.md): how Alpha handles loading, processing, queued work, loops, delays, and background tasks with calm legibility.
-- [Alpha Artifacts](docs/54-alpha-artifacts.md): artifacts as shaped holders of intent, context, state, memory, permission, process, and possible next actions.
+- [Alpha Artifacts](docs/54-alpha-artifacts.md): artifacts as small accountable digital handles that can support intent, context, state, memory, boundaries, process, and possible next actions.
+- [Artifact Grammar And Families](docs/55-artifact-grammar-and-families.md): artifact core, families, roles, lineage, visibility, and supporting purpose.
+- [Protocol-Native Provider-Agnostic Alpha](docs/56-protocol-native-provider-agnostic.md): the constitutional architecture principle that Alpha depends on contracts, protocols, and interchangeable capabilities, not any provider.
 - [MVP Options](docs/mvp/01-mvp-options.md): possible beachheads and wedge products.
 - [Alpha Social Game Master](docs/mvp/02-alpha-social-game-master.md): one vivid MVP probe for the social-life edge of the broader paradigm.
 - [Research Map](docs/research/01-research-map.md): assumptions, questions, and investigation threads.

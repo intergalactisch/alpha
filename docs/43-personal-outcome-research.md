@@ -199,7 +199,7 @@ The outcome should be able to appear as a fitting form:
 - note
 - ritual
 - room change
-- memory object
+- memory artifact
 - small plan
 - conversation preparation
 - creative experiment

@@ -72,13 +72,15 @@ It should not be fake precision.
 
 Alpha should avoid pretending to know exact timing when it does not.
 
-## Process Objects
+## Process Layer And Process State
 
-Alpha needs a concept of a process object.
+Alpha needs a Process Layer.
 
-A process object is a living representation of something underway.
+The Process Layer owns dynamic work state.
 
-It may include:
+Process State represents what is currently happening with something underway.
+
+Process State may include:
 
 - intent being served
 - current task
@@ -99,9 +101,20 @@ It may include:
 - recovery state
 - who or what is affected
 
-The person should not need to manage the process object.
+The person should not need to manage process state.
 
 But Alpha should be able to show or explain it when helpful.
+
+Use:
+
+- **Process Layer** for dynamic work responsibility.
+- **Process State** for current condition.
+- **Process Artifact** for a handleable representation.
+- **Process View** for rendering or query perspective.
+
+Canonical rule:
+
+> Process is state; artifacts handle it; views show it; the Life Graph connects it.
 
 ## Process Views
 
@@ -148,7 +161,7 @@ Not:
 
 > here is everything you are failing to manage.
 
-## Queue Objects
+## Queues And Queue State
 
 Alpha may need queues.
 
@@ -163,7 +176,7 @@ Queues are useful when:
 - a group is coordinating actions
 - a child-safe or high-risk review is needed
 
-A queue should not feel like bureaucracy.
+Queue state should not feel like bureaucracy.
 
 It should feel like:
 
@@ -233,10 +246,10 @@ Or:
 
 - generate option
 - user changes direction
-- Alpha re-clusters context
+- the Life Graph re-clusters context
 - new form appears
 - result is checked
-- memory is updated or not
+- the Memory Layer is updated or not
 
 Loops are natural in dynamic systems.
 

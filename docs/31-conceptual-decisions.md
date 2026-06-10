@@ -1214,7 +1214,7 @@ Alpha can output visible things:
 
 - plans
 - messages
-- memory objects
+- memory artifacts
 - generated interfaces
 - rituals
 - media flows

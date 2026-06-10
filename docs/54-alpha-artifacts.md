@@ -12,17 +12,29 @@ An Alpha artifact is not just a file, post, task, note, generated output, app sc
 
 An Alpha artifact is:
 
-> a shaped holder of intent, context, state, memory, permission, process, and possible next actions.
+> a small accountable digital handle.
 
 Shorter:
 
-> an artifact is meaning made handleable.
+> artifacts make meaning handleable.
+
+An artifact is a handle, not a container for the whole system.
+
+It can represent, reference, or activate intent, context, memory material, process state, boundaries, relationships, or outcomes.
+
+It does not own those responsibilities.
+
+An artifact should also be portable across providers.
+
+Alpha may use different models, tools, databases, interfaces, and runtimes to create, read, render, or transform artifacts.
+
+But the artifact should not depend on one provider's private shape to remain understandable.
 
 This matters because Alpha is not trying to make people use more apps.
 
 Alpha is trying to help people shape life.
 
-If life is shaped through intent, context, care, memory, relationships, media, plans, play, work, learning, and action, then Alpha needs forms that can hold those things without reducing them to old software objects.
+If life is shaped through intent, context, care, memory, relationships, media, plans, play, work, learning, and action, then Alpha needs handles that can make those things inspectable and steerable without reducing them to old software objects.
 
 ## Why Artifacts Matter
 
@@ -38,9 +50,9 @@ An app says:
 
 An Alpha artifact says:
 
-> here is something being shaped; its meaning, state, context, and possible futures are still alive.
+> here is something shaped enough to inspect, steer, share, fork, continue, pause, or act from.
 
-This is a shift from fixed software containers to living meaning containers.
+This is a shift from fixed software containers to accountable handles.
 
 Artifacts are useful because they sit between intent and outcome.
 
@@ -48,14 +60,14 @@ Intent can be invisible, vague, emotional, contradictory, or unfinished.
 
 Outcome can be too far away, too final, or too abstract.
 
-An artifact gives the person something to hold, inspect, change, share, pause, delete, continue, or transform.
+An artifact gives the person something to hold, inspect, change, share, pause, continue, fork, export, or transform.
 
 ## What Can Be An Artifact
 
 An artifact can be practical:
 
 - a plan for the week
-- a process view
+- a process artifact
 - a budget sketch
 - a travel arrangement
 - a business concept
@@ -79,7 +91,7 @@ An artifact can be social:
 - a group ritual
 - a birthday plan
 - a dinner invitation
-- a family memory collection
+- a family memory artifact
 - a trusted communication thread
 - a playful challenge between friends
 
@@ -87,7 +99,7 @@ An artifact can be emotional:
 
 - a reflection
 - a goodbye note
-- a memory cluster
+- a memory representation
 - a calming evening setup
 - a grief-support structure
 - a celebration recap
@@ -126,8 +138,8 @@ An artifact may be:
 - a question
 - a proposal
 - a boundary
-- a memory holder
-- a process state
+- a memory artifact
+- a process artifact
 - a shared object
 - a private experiment
 - a cultural contribution
@@ -152,25 +164,32 @@ Alpha should protect the trying phase of creativity. A person should be able to 
 
 At the same time, Alpha should allow artifacts to travel when people want them to: from private play, to shared moment, to community object, to culture, to livelihood.
 
-## Artifact As A Living Holder
+## Artifact As A Small Handle
 
-An Alpha artifact may carry:
+The artifact core should stay small.
 
-- intent
-- context
-- relevant memory
-- current state
-- owner or stewards
-- participants
-- permissions
+Canonical core:
+
+- `id`
+- `family`
+- `type`
+- `label`
+- `created_at`
+- `status`
+- `purpose`
+
+An artifact may reference or be surrounded by:
+
+- intent references
+- local context
+- memory representations
+- process state
+- Boundary Layer authority
+- Life Graph relations
+- graph events
 - provenance
-- sensitivity
-- possible next actions
-- open questions
-- related processes
-- related clusters
-- revision history
-- deletion and export options
+- rendering
+- available controls
 
 This does not mean every artifact needs heavy metadata.
 
@@ -180,11 +199,11 @@ A funny playlist between friends should not feel like enterprise governance.
 
 A child-related learning artifact, financial agreement, health-adjacent plan, or public cultural work needs more care.
 
-The artifact should carry enough structure to protect meaning, consent, and future action.
+The artifact should carry enough structure to remain accountable, while leaving broader responsibility with the right Alpha part.
 
 ## Artifact And Context
 
-Artifacts should be context-aware without becoming context-prisons.
+Artifacts can carry local context, but they are not context itself.
 
 The same artifact can mean different things in different moments.
 
@@ -211,34 +230,29 @@ That makes artifacts compatible with uncertainty.
 
 ## Artifact And Memory
 
-Some artifacts are memories.
+Artifacts can represent, carry, reference, or activate memory material, but they are not memory itself.
 
-Some artifacts contain memories.
+Memory is continuity.
 
-Some artifacts activate memories.
+Artifacts are handles.
 
-Some artifacts should never become memory.
-
-Alpha must not collapse all artifacts into permanent memory.
+The Life Graph connects them.
 
 A throwaway creative draft, a sensitive note, or a temporary emotional state should not become a lifelong profile signal by default.
 
 Memory friction should match memory consequence.
 
-Artifacts should be able to carry memory policy:
+Memory policy belongs to the Memory Layer and Boundary Layer.
 
-- do not remember this
-- remember only for this session
-- remember for this project
-- remember for this group
-- ask before using later
-- never use in public recap
-- delete after this date
-- preserve as personal memory
+A Memory Artifact can make that policy handleable, but it should not become the authority by itself.
 
-## Artifact And Permission
+## Artifact And Boundaries
 
-Artifacts are permission-bearing objects.
+Artifacts can be governed by boundaries.
+
+They do not own boundary authority.
+
+The Boundary Layer governs what Alpha may, may not, and must ask before doing.
 
 A person should be able to ask:
 
@@ -252,29 +266,27 @@ A person should be able to ask:
 
 > can this be shared, published, remixed, or trained on?
 
-> can I delete or revoke it?
+> can I revoke, hide, fork, export, or stop using it?
 
-Permissions should not be hidden in account settings far away from the artifact.
+Boundaries should not be hidden in account settings far away from the artifact.
 
-They should be close to the thing they govern.
+They should be inspectable near the thing they govern.
 
 ## Artifact And Process
 
-Some artifacts are done.
+Artifacts may represent process state.
 
-Some artifacts are in progress.
+They do not own process state.
 
-Some artifacts are waiting.
+The Process Layer owns dynamic work.
 
-Some artifacts are blocked.
+A Process Artifact can make that work handleable.
 
-Some artifacts are sleeping.
+A Process View can show it.
 
-Some artifacts are abandoned.
+The Life Graph connects it to intent, boundaries, tools, people, and outcomes.
 
-Some artifacts need user input before they can continue.
-
-An Alpha artifact should be able to expose its process state calmly.
+When useful, Alpha should expose process state calmly.
 
 Not as raw errors.
 
@@ -290,11 +302,11 @@ As human legibility:
 - what can be cancelled
 - what can be revised
 
-This turns waiting into part of the artifact rather than a mysterious loading state.
+This turns waiting into something handleable rather than a mysterious loading state.
 
 ## Artifact And Interface
 
-An artifact may render different interfaces depending on the situation.
+An artifact may be rendered through different interfaces depending on the situation.
 
 The artifact is not the screen.
 
@@ -322,6 +334,8 @@ It means the artifact is not trapped inside one interface.
 ## Artifact And Action
 
 An artifact can invite action, but should not force action.
+
+The available actions are derived by Alpha from artifact type, status, Life Graph context, Boundary Layer authority, Process State, and current medium.
 
 Possible next actions might include:
 
@@ -434,16 +448,17 @@ Marketing should shift from interruption to helpful fulfillment of real intent.
 
 An artifact is Alpha-shaped when it:
 
-- carries intent in context
+- is a small accountable handle
+- has a clear purpose
 - preserves human agency
-- makes relevant state visible
+- can reference relevant state without owning all state
 - supports correction
-- supports deletion or revocation
-- respects memory consequence
-- can participate in clusters without becoming surveillance
+- supports lifecycle control through derived controls
+- respects Memory Layer and Boundary Layer authority
+- can participate in Life Graph relationships without becoming surveillance
 - can become private, shared, public, or temporary as appropriate
 - can show or hide detail according to need
-- can expose next actions without forcing them
+- can expose derived next actions without forcing them
 - can be rendered through the fitting medium
 - helps shape an outcome the person agrees with
 
@@ -453,18 +468,19 @@ An artifact is not Alpha-shaped when it:
 - traps the user
 - makes deletion difficult
 - turns private trying into public identity
-- treats memory as platform property
+- treats memory as artifact property
 - converts attention into extraction
 - copies creative work without dignity
 - exposes children to adult burdens
 - forces action where rest or refusal should be allowed
 - treats old context as permanent truth
+- becomes a second Life Graph, Memory Layer, Process Layer, Boundary Layer, or rendering system
 
 ## A Useful Test
 
 When Alpha creates or touches an artifact, it should be possible to ask:
 
-> What is this, what shaped it, who is it for, what does it know, what may it do, what can happen next, and how can I change or remove it?
+> What is this, why does it exist, what does it represent, what governs it, what can happen next, and how can I change, fork, hide, export, or stop using it?
 
 If those answers are impossible, the artifact is probably too opaque.
 
@@ -476,13 +492,13 @@ The art is fittingness.
 
 Artifacts connect many Alpha primitives:
 
-- an intent object can create an artifact
-- an outcome contract can be expressed through an artifact
-- a contextual cluster can be activated by an artifact
-- a memory object can be a protected artifact
-- a generated interface can be a rendering of an artifact
-- a process object can track an artifact's work state
-- a permission ledger can govern an artifact
+- an intent can be represented through an artifact
+- an outcome can be expressed through an artifact
+- a contextual cluster can include an artifact
+- memory material can be represented through a Memory Artifact
+- a generated interface can render an artifact
+- process state can be represented through a Process Artifact
+- the Boundary Layer can govern an artifact
 - agent roles can shape or maintain an artifact
 
 This makes artifacts a bridge primitive.
@@ -493,7 +509,7 @@ But they may be one of the main ways Alpha becomes visible.
 
 ## Current Working Sentence
 
-> Alpha artifacts are meaning containers that help intent become handleable without becoming trapped in static apps, feeds, files, or forced workflows.
+> Alpha artifacts are small accountable handles that help intent, context, state, memory material, process, boundaries, or outcomes become handleable without becoming trapped in static apps, feeds, files, or forced workflows.
 
 Even shorter:
 

@@ -40,6 +40,8 @@ Goal: create precise enough specs and protocols to make Alpha buildable.
 
 Possible work:
 
+- protocol-native provider-agnostic architecture
+- capability contracts and adapter boundaries
 - intent/context specs
 - memory and consent specs
 - process object and queue specs
@@ -47,6 +49,7 @@ Possible work:
 - agent-to-agent and human-to-agent protocol sketches
 - trust, transparency, and reversibility protocols
 - media-agnostic interaction model
+- Alpha-to-Alpha communication through safe purpose-bound envelopes
 
 Possible outputs:
 

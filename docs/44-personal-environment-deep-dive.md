@@ -59,7 +59,7 @@ It asks:
 
 > What part of the person's immediate world wants to become more aligned with their intent?
 
-That could be a room, a desk, a phone surface, a soundscape, a memory object, a morning atmosphere, a creative corner, a decision space, a small rhythm, or a personal object.
+That could be a room, a desk, a phone surface, a soundscape, a memory representation, a morning atmosphere, a creative corner, a decision space, a small rhythm, or a personal object.
 
 The point is not the object.
 

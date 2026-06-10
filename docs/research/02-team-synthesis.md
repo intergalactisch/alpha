@@ -22,16 +22,16 @@ The product should not be "AI that builds apps." It should be the layer that tur
 
 ## Platform Research Takeaways
 
-Alpha is best understood as an experience runtime.
+Alpha is best understood as an intent-mediation layer that can compose adaptive experiences.
 
 Important primitives:
 
 - intent object
 - outcome contract
-- experience graph
+- Life Graph
 - generated interface
 - agent cast
-- permission ledger
+- Boundary Layer
 - memory infrastructure
 - simulation layer
 - social coordination primitive

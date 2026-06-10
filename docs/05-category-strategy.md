@@ -110,7 +110,7 @@ Possible long-term advantages:
 
 - trusted personal and group memory
 - taste and tone calibration
-- experience graph data
+- Life Graph relationship patterns
 - creator-made ritual and world templates
 - integrations across calendars, messaging, payments, media, and commerce
 - social graph inside persistent experiences

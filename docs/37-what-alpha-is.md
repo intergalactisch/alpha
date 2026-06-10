@@ -40,6 +40,12 @@ But they are mediums, not the essence.
 
 Alpha names the new relation between human intent and reality-shaping systems once software becomes generative, continuous, contextual, multimodal, and ambient.
 
+Alpha is also protocol-native and provider-agnostic.
+
+That means Alpha's essence should not depend on any single AI provider, model, harness, database, interface, cloud, runtime, or tool.
+
+Providers may power Alpha, but protocols define Alpha.
+
 ## The Best Current Nouns
 
 Alpha is not captured by one noun yet.
@@ -94,6 +100,9 @@ Infrastructure explains what Alpha needs underneath:
 - provenance
 - encrypted communication
 - agent/tool orchestration
+- protocol-native contracts
+- provider-neutral adapters
+- capability routing
 - recovery
 - cost discipline
 - deletion/export/revocation
@@ -115,6 +124,10 @@ But Alpha is larger than message formats, APIs, or standards.
 The protocol would encode the ontology.
 
 It would not be the ontology.
+
+At the same time, any implementation of Alpha should be protocol-native.
+
+Protocols and contracts are how Alpha avoids becoming a wrapper around one provider.
 
 ### Paradigm
 
@@ -150,6 +163,7 @@ Alpha assumes:
 - attention is part of a person's life and dignity
 - intent matters more than engagement
 - systems should become responsive without becoming extractive
+- providers are replaceable, while protocols are constitutional
 - software can appear only when needed
 - culture is living context, not content
 - globalization should create textured closeness, not sameness
@@ -267,7 +281,7 @@ The right medium could be:
 - conversation
 - silence
 - a temporary interface
-- a memory object
+- a memory artifact
 - a ritual
 - a message
 - a generated tool

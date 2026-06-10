@@ -296,7 +296,7 @@ Possible outputs include:
 - a temporary interface
 - a simple plan
 - a generated tool
-- a memory object
+- a memory artifact
 - a prepared conversation
 - a media or music moment
 - a small ritual

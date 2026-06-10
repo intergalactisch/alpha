@@ -65,6 +65,43 @@ This is not the whole of Alpha.
 
 But it may be the center.
 
+## Constitutional Architecture Law
+
+Any implementation of Alpha should be protocol-native and provider-agnostic.
+
+This is not an extra feature on top of Alpha.
+
+It is an architectural condition for Alpha to remain sovereign.
+
+Alpha should depend on:
+
+- contracts
+- protocols
+- interchangeable capabilities
+- portable artifacts
+- scoped permissions
+- inspectable behavior
+- adapters
+- fallbacks
+
+Alpha should not depend on any single:
+
+- model
+- provider
+- harness
+- tool
+- database
+- interface
+- cloud
+- runtime
+- framework
+
+Providers may power Alpha, but protocols define Alpha.
+
+Models are workers, not the identity of Alpha.
+
+If a system can only remain Alpha-shaped while one provider, model, or harness behaves in a particular way, it is too tightly coupled.
+
 ## The Seven Kernel Conditions
 
 ### 1. Intent In Context
@@ -331,6 +368,8 @@ The kernel should prefer:
 - quiet before interruption
 - rules before models where enough
 - small models before large models where enough
+- contracts before provider-specific behavior
+- adapters before lock-in
 - drafts before action
 - local context before broad exposure
 - temporary forms before permanent surfaces
@@ -411,6 +450,10 @@ If restraint is missing:
 
 > Alpha becomes slop, surveillance, spam, cost explosion, or overreach.
 
+If protocol-native provider-agnosticism is missing:
+
+> Alpha becomes a wrapper around someone else's model, platform, pricing, policy, worldview, or failure mode.
+
 ## Kernel Test
 
 A future Alpha-shaped idea should pass this test:
@@ -422,6 +465,7 @@ A future Alpha-shaped idea should pass this test:
 5. Does the form follow the moment rather than force a surface?
 6. Is its mediation transparently askable?
 7. Does it use fitting sufficient power?
+8. Is it protocol-native and provider-agnostic enough to survive provider change?
 
 If the answer is no to any of these, the idea may need revision.
 
@@ -441,6 +485,9 @@ A bounded Alpha-like kernel can be created now because current systems can alrea
 - generated temporary interfaces
 - provenance and audit trails
 - model routing by cost and risk
+- provider-neutral contracts
+- adapter-based capability routing
+- protocol validation
 - export, deletion, and revocation flows
 - quiet modes and notification restraint
 

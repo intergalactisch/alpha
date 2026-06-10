@@ -11,6 +11,8 @@ Every Alpha spec should try to state:
 - what human need or condition it serves
 - what intent it supports
 - what context it requires
+- what protocol or contract boundary it relies on
+- how it remains provider-agnostic
 - what it must never violate
 - what data or memory it touches
 - what permissions it needs
@@ -29,11 +31,15 @@ Every Alpha spec should try to state:
 - Context Spec
 - Personal Intent Space Spec
 - Memory Consent Spec
-- Dynamic Contextual Cluster Spec
-- Process Object Spec
+- Life Graph Clustering Spec
+- Process State Spec
 - Artifact Spec
+- Boundary Layer Spec
 - Media-Agnostic Option Spec
 - Child Interaction Spec
 - Trusted Communication Spec
 - Transparency And Reasoning Spec
 - Cost And Sustainability Spec
+- Protocol-Native Provider-Agnostic Spec
+- Capability Contract Spec
+- Alpha-To-Alpha Communication Spec

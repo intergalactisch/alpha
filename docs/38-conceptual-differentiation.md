@@ -268,6 +268,14 @@ Difference:
 
 > A protocol lets systems communicate. Alpha asks what kind of communication, memory, action, and trust should exist between humans and systems.
 
+Important correction:
+
+Alpha is not reducible to a protocol, but any buildable Alpha should be protocol-native and provider-agnostic.
+
+Protocols do not define the whole meaning of Alpha.
+
+They protect Alpha from becoming dependent on one model, provider, harness, database, interface, cloud, or runtime.
+
 ## Not A Life Philosophy
 
 Why it is tempting:

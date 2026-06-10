@@ -88,7 +88,7 @@ Expansion principles:
 - scoped by default
 - permissioned explicitly
 - reversible
-- visible in the consent ledger
+- visible through a Boundary View
 - easy to explain in one sentence
 
 ## Easy To Delete

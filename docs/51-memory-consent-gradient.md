@@ -68,7 +68,7 @@ Memory may be:
 - a temporary state
 - a current context
 - an interpretation
-- a memory object
+- a memory representation
 - a boundary
 - a relationship note
 - a creative direction

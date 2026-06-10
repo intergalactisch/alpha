@@ -94,7 +94,7 @@ Alpha decides the right form:
 - plan
 - ritual
 - generated UI
-- memory object
+- memory artifact
 - demand object
 - message draft
 - media flow
@@ -206,6 +206,12 @@ Alpha does not require science fiction to begin.
 
 The current building blocks exist.
 
+But Alpha should not be coupled to any single current building block.
+
+Every model, provider, harness, API, database, UI surface, or runtime should sit behind provider-neutral contracts and safe protocols.
+
+Alpha is protocol-native and provider-agnostic.
+
 ### Multimodal Input And Output
 
 Current models can handle text, images, audio, and voice interaction. Speech-to-speech APIs already make low-latency voice experiences possible, and multimodal APIs can combine text, audio, images, and tool use.
@@ -244,9 +250,9 @@ The hard part is not storage.
 
 The hard part is memory ethics.
 
-### Consent Ledger
+### Boundary Events And Views
 
-Alpha can maintain a ledger of:
+The Boundary Layer can preserve boundary events and expose them through Boundary Views:
 
 - what was allowed
 - by whom
@@ -313,7 +319,7 @@ It can:
 
 This is possible now with good software engineering.
 
-### Provenance And Trust Layer
+### Provenance And Trust Signals
 
 Alpha can attach provenance metadata to:
 
@@ -342,6 +348,8 @@ Alpha can route tasks by cost and risk:
 - agent workflow
 
 This is possible now and is essential.
+
+The router should choose capabilities through contracts, not treat any provider as Alpha's identity.
 
 ## What Alpha Could Output
 
@@ -396,7 +404,7 @@ Alpha might output:
 - recaps
 - shared artifacts
 
-### Memory Objects
+### Memory Representations
 
 - private memories
 - shared memories
@@ -406,6 +414,8 @@ Alpha might output:
 - life timelines
 
 ### Demand Objects
+
+Provisional name.
 
 - structured needs
 - budget-aware requests
@@ -475,6 +485,9 @@ The following current technologies make this realistic today:
 - browser automation
 - generated UI
 - conventional observability and recovery systems
+- provider-neutral capability contracts
+- adapter-based execution
+- protocol validation and conformance testing
 
 The future challenge is not whether the pieces exist.
 
@@ -483,6 +496,8 @@ The future challenge is whether they can be assembled with the right ethics, tas
 ## Doability References
 
 These are not endorsements of one vendor or final implementation path. They are examples showing that the underlying building blocks already exist:
+
+Alpha should be able to replace providers while preserving its contracts, artifacts, permissions, and user control.
 
 - OpenAI Realtime API for low-latency speech-to-speech and multimodal interaction: https://platform.openai.com/docs/guides/realtime
 - OpenAI Responses API for model interaction with built-in and custom tools: https://platform.openai.com/docs/api-reference/responses/create

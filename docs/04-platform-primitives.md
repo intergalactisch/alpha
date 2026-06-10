@@ -6,6 +6,38 @@ Those are surfaces.
 
 The deeper platform needs new primitives.
 
+Naming note:
+
+`Intent Object`, `Outcome Contract`, and `Demand Object` are still provisional working names. They describe important responsibilities, but their final names should be grilled against the Alpha naming grammar before implementation. In particular, `Outcome Contract` here means an editable human agreement about success, not a provider capability contract.
+
+## 0. Protocol-Native Substrate
+
+Alpha should be protocol-native and provider-agnostic.
+
+Every primitive should be able to connect through contracts, protocols, interchangeable capabilities, and adapter boundaries.
+
+The substrate is not a single provider, model, harness, database, interface, cloud, or runtime.
+
+It is the connective discipline that lets Alpha parts hook into each other without tight coupling.
+
+Core rule:
+
+> Providers may power Alpha, but protocols define Alpha.
+
+This substrate should support:
+
+- capability contracts
+- provider adapters
+- safe envelopes
+- protocol validation
+- portable artifacts
+- scoped Life Graph access
+- permission-aware routing
+- Alpha-to-Alpha communication without raw personal data exposure
+- fallback when a provider fails or changes
+
+If a primitive only works because one provider behaves in one specific way, the primitive is not stable enough.
+
 ## 1. Intent Object
 
 A durable representation of what someone or some group wants.
@@ -70,28 +102,51 @@ It should include:
 
 Shopping is one example. The larger primitive is generative demand.
 
-## 4. Experience Graph
+## 4. Life Graph
 
-A living map of the people, tools, memories, places, media, events, open loops, jokes, preferences, and commitments around an intent.
+The Life Graph is Alpha's queryable context and relationship engine.
 
-This is where Alpha compounds.
+It is Alpha-native but human-governed.
 
-The graph should know:
+It connects intents, artifacts, memory representations, processes, boundaries, people, groups, contexts, outcomes, sources, tools, agents, and graph events through scoped, permission-aware relationships.
 
-- who is involved
-- what happened
-- what mattered
-- what is unresolved
-- what tone fits
-- what constraints exist
-- what objects or artifacts were created
-- what interventions worked
+The Life Graph owns:
 
-## 4a. Contextual Cluster
+- queryable relationships
+- scoped context
+- graph events
+- views
+- relationship claims
+- contextual connectedness
 
-A contextual cluster is a provisional relationship between memories, intents, artifacts, people, places, media, actions, or outcomes.
+The Life Graph does not own:
 
-It is formed from:
+- artifact content
+- memory continuity
+- permission authority
+- process execution
+- rendering
+- provider behavior
+
+Core rules:
+
+> The Life Graph is deeply queryable, but never openly exposed.
+
+> Query first, reason second.
+
+Experience is not a separate graph primitive.
+
+An experience emerges from Life Graph queries, artifacts, process state, outcomes, rendering, and context.
+
+## 4a. Contextual Clustering
+
+Contextual clustering is a Life Graph capability.
+
+A contextual cluster is a provisional Life Graph grouping under a specific intent, context, permission scope, moment, medium, or meaning.
+
+It is not a separate object-world.
+
+It may be formed from:
 
 - tags
 - categories
@@ -101,13 +156,15 @@ It is formed from:
 - provenance
 - current intent
 - current medium
+- boundaries
 - permissions
 - corrections
-- relationships between artifacts
+- relationship claims
+- graph events
 
 Clusters should be real-time and context-sensitive.
 
-What is not a cluster in one moment may become a cluster in another.
+What is not a cluster in one moment may become one in another.
 
 A cluster can be:
 
@@ -123,47 +180,49 @@ A cluster can be:
 
 Clusters must remain editable, scoped, askable, and subordinate to the user's meaning.
 
-Every Alpha artifact should be able to activate, handle, and influence clusters without becoming a surveillance object.
+Every Alpha artifact should be able to participate in clusters without becoming a surveillance object.
 
 ## 4b. Alpha Artifact
 
-An Alpha artifact is a shaped holder of intent, context, state, memory, permission, process, and possible next actions.
+An Alpha artifact is a small accountable digital handle.
 
-It is not merely a file, post, task, app screen, generated output, or database record.
+It is not a container for the whole system.
 
-It is a form that helps meaning stay visible, editable, shareable, revisable, and deletable.
+It can represent, reference, or activate intent, context, memory material, process state, boundaries, relationships, or outcomes, but it does not own those responsibilities.
 
-An artifact can be:
+Canonical core:
 
-- private
-- shared
-- temporary
-- durable
-- playful
-- serious
-- unfinished
-- generated
-- human-made
-- co-created
-- digital
-- physical
-- mixed
-
-An Alpha artifact should be able to answer:
-
-> What intent shaped me, what context matters, who may see or change me, what state am I in, and what can happen next?
+- `id`
+- `family`
+- `type`
+- `label`
+- `created_at`
+- `status`
+- `purpose`
 
 Artifacts are one way Alpha moves beyond static apps.
 
 In the old paradigm, apps hold functionality.
 
-In Alpha, artifacts can hold meaning.
+In Alpha, artifacts make meaning handleable.
 
-## 5. Memory Object
+## 5. Memory Layer
 
-A memory object is a protected artifact of life continuity.
+The Memory Layer owns life continuity stewardship.
 
-It may include:
+Memory is not an artifact.
+
+Memory is not generic storage.
+
+Memory should support life without owning life.
+
+Use:
+
+- **Memory Layer** for continuity stewardship.
+- **Memory Representation** for system-level or graph-level representation of memory material.
+- **Memory Artifact** for a digitally handleable representation of memory material.
+
+Memory material may include:
 
 - photos
 - videos
@@ -176,9 +235,9 @@ It may include:
 - objects
 - future sensory or spatial forms
 
-The memory object should know:
+The Memory Layer should govern:
 
-- who it belongs to
+- who memory material belongs to
 - who it is shared with
 - whether it is personal, shared, collective, temporary, or sensitive
 - what consent applies
@@ -186,9 +245,11 @@ The memory object should know:
 - what provenance exists
 - whether it can be used for future Alpha context
 - whether it can appear in recaps
-- whether it can be exported, deleted, or revoked
+- whether it can be exported, redacted, hidden, forgotten, or revoked
 
-Memory is not generic storage. Storage is stewardship, not ownership.
+Canonical rule:
+
+> Memory is continuity; artifacts are handles; the graph connects them.
 
 ## 6. Agent Cast
 
@@ -212,25 +273,36 @@ Possible roles:
 
 The user should not have to manage the cast manually. Alpha should reveal roles only when it helps trust or control.
 
-## 7. Permission Ledger
+## 7. Boundary Layer
 
-Alpha needs a natural consent system for what it can know, remember, say, schedule, buy, book, invite, publish, or automate.
+The Boundary Layer owns authoritative limits, permissions, consent, refusal, revocation, and action constraints.
+
+Alpha needs a natural consent system for what it can know, remember, say, schedule, buy, book, invite, publish, spend, expose to providers, or automate.
 
 The challenge:
 
-> make permissions feel like trust-building, not enterprise configuration.
+> make boundaries feel like trust-building, not enterprise configuration.
 
-Possible permission language:
+Possible boundary language:
 
 - Ask me first.
 - Draft only.
 - Can suggest.
 - Can send after approval.
 - Can remember for this group.
-- Forget after this season.
+- Forget after this phase.
 - Never use this in public recaps.
+- Do not expose this to providers.
 
-The permission ledger is also a security primitive. It should create a durable record of granted capabilities, expired capabilities, denied capabilities, and consequential actions.
+Use:
+
+- **Boundary Layer** for authority.
+- **Boundary State** for current applicable limits.
+- **Boundary Artifact** for a handleable representation.
+- **Boundary Protocol** for exchange.
+- **Boundary View** for inspection and control.
+
+The Boundary Layer should create a durable record of granted capabilities, expired capabilities, denied capabilities, revoked capabilities, and consequential actions.
 
 The user should be able to answer:
 
@@ -241,6 +313,10 @@ and:
 > What did Alpha do already?
 
 without needing to trust a vague assistant persona.
+
+Canonical rule:
+
+> Boundaries govern what Alpha may, may not, and must ask before doing.
 
 ## 8. Generated Interface
 
@@ -264,9 +340,11 @@ The interface should exist because the experience needs it, not because the prod
 
 Generated interfaces must be provenance-aware. If a UI asks the user to approve money, messages, business actions, private memories, or public publishing, it should clearly show what system or agent produced it and what action approval will trigger.
 
-## 8a. Process Object
+## 8a. Process Layer And Process State
 
-A process object represents dynamic work underway.
+The Process Layer owns dynamic work state.
+
+Process State represents what is currently happening with work underway.
 
 It may include:
 
@@ -287,7 +365,7 @@ It may include:
 - cancellation or pause state
 - recovery state
 
-The user should not have to manage process objects manually.
+The user should not have to manage process state manually.
 
 But Alpha should be able to explain:
 
@@ -301,7 +379,16 @@ and:
 
 > what input do you need from me?
 
-Process objects make waiting, loading, processing, queues, and loops legible without exposing raw machinery.
+Use:
+
+- **Process Layer** for dynamic work responsibility.
+- **Process State** for current condition.
+- **Process Artifact** for a handleable representation.
+- **Process View** for rendering or query perspective.
+
+Canonical rule:
+
+> Process is state; artifacts handle it; views show it; the Life Graph connects it.
 
 ## 9. Simulation Layer
 

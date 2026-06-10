@@ -12,6 +12,10 @@ This is how Alpha can be cost-friendly, ecologically responsible, and scalable.
 
 If Alpha becomes an intent layer for life, business, social systems, media, economics, and physical-world action, it cannot depend on constant frontier-model reasoning for every user, every memory, every agent, and every loop.
 
+It also cannot depend on any single AI provider, model, harness, database, cloud, runtime, or interface.
+
+Cost-friendly Alpha must be provider-agnostic by design.
+
 The winning system will feel intelligent because it knows when not to spend intelligence.
 
 The scalable sequence is:
@@ -30,6 +34,9 @@ Alpha should scale through:
 - progressive escalation
 - generated interfaces only when useful
 - bounded autonomy
+- provider-neutral contracts
+- interchangeable capabilities
+- adapters and fallbacks
 
 ## Minimum Sufficient Intelligence
 
@@ -44,6 +51,10 @@ Alpha should route every task through the smallest sufficient method:
 7. Human-in-the-loop or expert escalation.
 
 The system should not begin at level 5 when level 2 is enough.
+
+The routing layer should choose capabilities, not providers as identity.
+
+Specific providers may be used, but the contract should remain swappable.
 
 ## Frugal Intelligence Rules
 
@@ -222,6 +233,9 @@ Alpha should separate:
 - risk/cost scoring
 - event handling
 - cache management
+- capability contracts
+- provider adapters
+- protocol validation
 
 This separation allows each layer to use the cheapest reliable method.
 

@@ -224,6 +224,8 @@ Sometimes the best generated outcome is not more stuff.
 
 ## Platform Primitive: Demand Object
 
+Provisional name.
+
 Alpha may need a demand object alongside the intent object.
 
 An intent object says:

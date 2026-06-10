@@ -172,7 +172,7 @@ The promise:
 
 > media as shared joy, not infinite consumption.
 
-## 10. A Communication Trust Layer
+## 10. Trusted Communication Infrastructure
 
 Alpha could help end hostile communication:
 
@@ -253,7 +253,7 @@ It may become:
 - a trust layer
 - a memory standard
 - an intent format
-- an experience runtime
+- an adaptive mediation substrate
 - a personal operating substrate
 - an agent permission model
 - a marketplace grammar
@@ -271,4 +271,3 @@ Alpha could become a way for people to say:
 > this is the life, community, business, memory, culture, or world we are trying to bring into being.
 
 and have systems organize around that without stealing attention, memory, childhood, culture, or trust.
-

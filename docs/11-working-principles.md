@@ -66,7 +66,19 @@ Alpha should work with as little as possible:
 
 Escalate only when the intent, risk, or value justifies it.
 
-## 7. Transparent Power
+## 7. Protocol-Native, Provider-Agnostic
+
+Alpha should be built around protocols, contracts, interchangeable capabilities, and portable representations.
+
+No model, provider, harness, database, tool, interface, cloud, or runtime should become Alpha's identity or single point of dependency.
+
+Providers may power Alpha, but protocols define Alpha.
+
+The question is:
+
+> Does this depend on one provider, or can the capability be swapped while preserving Alpha's intent, care, transparency, and control?
+
+## 8. Transparent Power
 
 Alpha can be magical, but not mysterious in consequential moments.
 
@@ -85,7 +97,7 @@ It should distinguish:
 - opinion
 - commercial influence
 
-## 8. Generative Demand, Not Infinite Consumption
+## 9. Generative Demand, Not Infinite Consumption
 
 Alpha assumes supply becomes generative. People can increasingly create, customize, commission, assemble, or source what they want instead of choosing from finite catalogs.
 
@@ -97,7 +109,7 @@ The question is:
 
 Sometimes the answer is a product. Sometimes it is a service, ritual, tool, business workflow, game, learning path, community process, media experience, institutional action, or nothing.
 
-## 9. Care Before Conversion
+## 10. Care Before Conversion
 
 Marketing and advertising should not interrupt Alpha.
 
@@ -109,7 +121,7 @@ The question is:
 
 > Is this helping, or is it hunting?
 
-## 10. Optional Reciprocity, Never Forced
+## 11. Optional Reciprocity, Never Forced
 
 People should be able to help, thank, sponsor, reward, fund, credit, and support each other.
 
@@ -121,7 +133,7 @@ The question is:
 
 > What would let gratitude, support, and care flow naturally here?
 
-## 11. Trusted Communication, Never Forced
+## 12. Trusted Communication, Never Forced
 
 Communication should be personal, friendly, trustworthy, consentful, and clearly sourced.
 
@@ -131,7 +143,7 @@ The question is:
 
 > Do they want to be reached, by whom, for what, and in what way?
 
-## 12. Embodied Presence Over Screen Attachment
+## 13. Embodied Presence Over Screen Attachment
 
 Alpha should not increase dependency on phones, computers, dashboards, feeds, or constant technical connectivity.
 
@@ -143,7 +155,7 @@ The question is:
 
 > How do we help people be more connected to each other and the world?
 
-## 13. Humane Globalization, Culture Intact
+## 14. Humane Globalization, Culture Intact
 
 Alpha should make it easier to stay close across distance: siblings abroad, friends on different continents, collaborators in other cities, and communities in other languages.
 
@@ -155,7 +167,7 @@ The question is:
 
 > How do we help people stay close across distance while letting cultures remain alive?
 
-## 14. Ethical Prosperity, Not Extraction
+## 15. Ethical Prosperity, Not Extraction
 
 People should be able to earn, build, own, invest, trade, create, and keep income private.
 
@@ -165,7 +177,7 @@ The question is:
 
 > Can this make money in a way people would still respect if they understood it?
 
-## 15. Culture, Art, And Creative Dignity
+## 16. Culture, Art, And Creative Dignity
 
 Alpha should help people create beautiful things and put them on display.
 
@@ -175,7 +187,7 @@ The question is:
 
 > Can we make something alive, respectful, and truly ours?
 
-## 16. Flowing Media, Shared Joy
+## 17. Flowing Media, Shared Joy
 
 Music, video, art, play, parties, stories, and entertainment should flow naturally between people, moments, cultures, and interactions.
 
@@ -185,7 +197,7 @@ The question is:
 
 > What form of shared joy, rest, beauty, or meaning wants to move here?
 
-## 17. Childhood First
+## 18. Childhood First
 
 Children should not interact with Alpha as if they were adults.
 
@@ -197,7 +209,7 @@ The question is:
 
 > Does this honor, protect, and enrich childhood?
 
-## 18. Memory Sovereignty And Life Continuity
+## 19. Memory Sovereignty And Life Continuity
 
 Memories are not just data. They are part of how people understand life, identity, love, loss, belonging, knowledge, and experience.
 
@@ -207,7 +219,7 @@ The question is:
 
 > What should be held, by whom, for whom, and with what care?
 
-## 19. Graceful Failure, Invisible Complexity
+## 20. Graceful Failure, Invisible Complexity
 
 People should not be harassed by raw errors, bugs, glitches, stack traces, broken states, or implementation details.
 
@@ -217,7 +229,7 @@ The question is:
 
 > What does the person need to know, and how can Alpha recover with care?
 
-## 20. Personalization Without Echo Chambers
+## 21. Personalization Without Echo Chambers
 
 Alpha should make people feel understood without trapping them inside what they already believe, fear, prefer, or want to hear.
 
@@ -227,7 +239,7 @@ The question is:
 
 > How do we keep people seen without making their world smaller?
 
-## 21. Human Aliveness Over Engagement
+## 22. Human Aliveness Over Engagement
 
 Alpha should optimize for endorsed outcomes, not addiction.
 
@@ -246,7 +258,7 @@ Useful signals are:
 
 Raw engagement is not enough.
 
-## 22. Ecological And Economic Responsibility
+## 23. Ecological And Economic Responsibility
 
 AI has cost:
 
@@ -261,13 +273,13 @@ AI has cost:
 
 Alpha should make heavy compute intentional, reuse what can be reused, and avoid generating disposable output when durable experience would be better.
 
-## 23. Context Boundaries Are Sacred
+## 24. Context Boundaries Are Sacred
 
 Personal, group, business, family, public, financial, institutional, and sensitive contexts should not blur by accident.
 
 Cross-context use should be explicit, visible, and reversible.
 
-## 24. The World Should Become More Shapeable, Not More Opaque
+## 25. The World Should Become More Shapeable, Not More Opaque
 
 The final test:
 

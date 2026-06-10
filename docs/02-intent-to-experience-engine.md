@@ -64,6 +64,8 @@ An outcome state includes:
 
 ### Demand Object
 
+Provisional name.
+
 The structured expression of what the world could provide, create, modify, coordinate, or avoid in response to an intent.
 
 This is broader than shopping.

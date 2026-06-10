@@ -173,7 +173,7 @@ The form may be:
 - a generated tool
 - a ritual
 - a conversation
-- a memory object
+- a memory artifact
 - a media moment
 - a changed environment
 - a decision aid

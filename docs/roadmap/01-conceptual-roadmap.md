@@ -10,6 +10,8 @@ The roadmap should be treated as a living orientation layer, not a schedule that
 - Which concepts are stable enough to become specs?
 - Which specs are ready to become protocols?
 - Which protocols are ready to become technical tryouts?
+- Which contracts keep Alpha provider-agnostic without over-engineering it?
+- How can Alpha-to-Alpha communication happen without leaking personal Life Graph data?
 - Which tryouts reveal something essential about Alpha rather than only showing a feature?
 - Where does Alpha help shape life without making people feel managed?
 - Where does Alpha need to stay quiet, wait, or do nothing?

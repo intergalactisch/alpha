@@ -1,10 +1,10 @@
 # Dynamic Contextual Clustering
 
-Status: conceptual system layer.
+Status: conceptual Life Graph capability.
 
 This document captures an important shift:
 
-> Alpha should not only store memories, artifacts, intents, and context. It should be able to cluster them dynamically in real time, depending on the current intent, medium, moment, and meaning.
+> Alpha should not only store memories, artifacts, intents, and context. The Life Graph should be able to cluster them dynamically in real time, depending on the current intent, medium, moment, permission scope, and meaning.
 
 Clusters are not fixed folders.
 
@@ -12,11 +12,15 @@ Clusters are not permanent categories.
 
 Clusters are not always visible.
 
-Clusters are living, contextual relationships that may appear, fade, split, merge, or matter differently depending on what the person is trying to shape.
+Clusters are provisional Life Graph groupings that may appear, fade, split, merge, or matter differently depending on what the person is trying to shape.
+
+A contextual cluster is not a separate object-world.
+
+It is a Life Graph capability.
 
 ## The Core Idea
 
-Alpha should use tags, categories, metadata, provenance, time, relationships, artifacts, context, and semantic patterns to understand possible relationships.
+The Life Graph should use tags, categories, metadata, provenance, time, relationship claims, graph events, artifacts, context, and semantic patterns to understand possible relationships.
 
 But the meaning of a relationship can change.
 
@@ -36,7 +40,7 @@ In the old paradigm, categories often behave like containers:
 
 > put this thing in this folder.
 
-Alpha should treat clustering more like an active interpretation:
+Alpha should treat clustering more like an active graph interpretation:
 
 > under this intent and context, these things may belong together.
 
@@ -128,7 +132,7 @@ The same artifacts can participate in different clusters without being reduced t
 
 ## Artifacts Activate Clusters
 
-All Alpha artifacts should be able to activate, handle, and influence clusters.
+All Alpha artifacts should be able to participate in clusters.
 
 Artifacts include:
 
@@ -150,23 +154,25 @@ Artifacts include:
 - physical-world outputs
 - future media forms
 
-An artifact should be able to carry:
+An artifact may contribute to clustering through:
 
 - what it is
 - where it came from
 - who it belongs to
 - who it involves
-- what context it came from
-- what permissions apply
+- local context
+- applicable boundaries
 - what time or time-feeling it belongs to
 - what tags or metadata exist
-- what clusters it may relate to
-- what clusters the user confirmed or rejected
+- what relationship claims it participates in
+- what clusters the user confirmed or rejected around it
 - what should not be inferred from it
 
 Artifacts are not passive files.
 
-They are living context carriers.
+But artifacts do not own clusters.
+
+The Life Graph owns contextual clustering.
 
 But they must not become surveillance objects.
 
@@ -255,11 +261,11 @@ They are not ownership.
 
 Memory and clustering are related, but not the same.
 
-Memory asks:
+The Memory Layer asks:
 
 > what should be held?
 
-Clustering asks:
+Contextual clustering asks:
 
 > under this context, what might belong together?
 
@@ -277,7 +283,7 @@ Every artifact Alpha creates or touches should be cluster-capable.
 
 That does not mean every artifact needs heavy metadata.
 
-It means artifacts should be able to participate in relationships when useful.
+It means artifacts should be able to participate in Life Graph relationships when useful.
 
 For example:
 
@@ -288,9 +294,9 @@ For example:
 - a message may connect to a relationship or conflict cluster
 - a game artifact may connect to friendship, play, or childhood clusters
 
-Artifacts should also be able to change clusters.
+Artifacts may also influence clusters.
 
-A new artifact can reveal a relationship that was not visible before.
+A new artifact can reveal a relationship claim that was not visible before.
 
 A user correction can split a cluster.
 
@@ -324,11 +330,10 @@ Question:
 
 Recommended answer:
 
-> It can, unless clusters are provisional, visible when relevant, askable, correctable, scoped, and never treated as identity. Dynamic clustering is powerful because life is connected. It becomes Alpha-shaped only when the person can steer, reject, split, merge, hide, or delete cluster relationships.
+> It can, unless clusters are provisional, visible when relevant, askable, correctable, scoped, and never treated as identity. Dynamic clustering is powerful because life is connected. It becomes Alpha-shaped only when the person can steer, reject, split, merge, hide, or stop using cluster relationships.
 
 ## Current Working Definition
 
 Dynamic contextual clustering means:
 
-> Alpha can use tags, metadata, context, time, artifacts, memory, and intent to form real-time provisional relationships, while keeping those relationships editable, scoped, and subordinate to the user's meaning.
-
+> The Life Graph can use tags, metadata, context, time, artifacts, memory representations, and intent to form real-time provisional groupings, while keeping those groupings editable, scoped, and subordinate to the user's meaning.

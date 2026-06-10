@@ -6,6 +6,14 @@ It is not a product architecture yet.
 
 It is an operating model for a new kind of system.
 
+Foundational architecture law:
+
+> Alpha is protocol-native and provider-agnostic.
+
+The operating model should be built from contracts, protocols, adapters, interchangeable capabilities, and portable representations.
+
+No provider, model, harness, tool, database, interface, cloud, or runtime should become Alpha's identity.
+
 ## What Alpha Should Do
 
 Alpha should help a person or group move from:
@@ -71,6 +79,8 @@ Context must remain scoped, inspectable, editable, and deletable.
 
 ### 4. Create Outcome Contracts
 
+Provisional name. Here, "contract" means an editable human agreement about success, not a provider capability contract.
+
 Alpha should translate intent into a current definition of success.
 
 Example:
@@ -106,6 +116,10 @@ The form should follow intent.
 ### 6. Orchestrate Agents And Tools Quietly
 
 Alpha can use agents, but should not make the user manage a swarm.
+
+Agents, tools, models, and providers should connect through capability contracts.
+
+They are replaceable workers, not Alpha's core identity.
 
 Agents are backstage roles:
 
@@ -245,19 +259,20 @@ Alpha may gently ask whether to keep, resume, pause, close, delete, or reconnect
 
 ## How Alpha Should Work
 
-Conceptually, Alpha can be understood as layers:
+Conceptually, Alpha can be understood through responsibilities:
 
-1. Intent Layer: understands what someone wants.
-2. Context Layer: retrieves scoped memory, culture, preferences, and constraints.
-3. Trust Layer: applies consent, permissions, boundaries, provenance, and child safety.
-4. Outcome Layer: forms an editable outcome contract.
-5. Composition Layer: chooses agents, workflows, tools, media, rituals, or interfaces.
-6. Experience Layer: presents the right surface or no surface.
-7. Fulfillment Layer: coordinates action in software, markets, communities, institutions, or the physical world.
-8. Recovery Layer: handles failure and invisible complexity.
-9. Process Layer: tracks waiting, queues, loops, elapsed time, dependencies, and background work.
-10. Memory Layer: preserves, forgets, or shares what should continue.
-11. Adaptation Layer: learns from outcomes without optimizing for addiction.
+0. Protocol And Contract Layer: keeps Alpha provider-agnostic through safe protocols, capability contracts, adapters, and portable representations.
+1. Intent Understanding: interprets what someone wants without claiming to own their living intent.
+2. Life Graph: retrieves scoped relationships, context, relevant artifacts, and current connectedness.
+3. Memory Layer: preserves, forgets, or shares what should continue.
+4. Boundary Layer: applies consent, permissions, boundaries, provenance, and child safety.
+5. Alignment Layer: checks interpretation, outcome, artifact, process, and action against intent, context, boundaries, care, and agreed result.
+6. Composition: chooses agents, workflows, tools, media, rituals, interfaces, or no visible form.
+7. Rendering / Interface: presents the right medium, surface, voice, or silence.
+8. Process Layer: tracks waiting, queues, loops, elapsed time, dependencies, and background work.
+9. Fulfillment: coordinates action in software, markets, communities, institutions, or the physical world.
+10. Recovery: handles failure and invisible complexity.
+11. Adaptation: learns from outcomes without optimizing for addiction.
 
 ## What Alpha Should Feel Like
 
