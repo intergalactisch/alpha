@@ -198,12 +198,12 @@ No real system is literally infinite. But Alpha should be designed as if every o
 - one agent to swarms
 - one business to an ecosystem
 - one media briefing to a knowledge layer
-- one marketplace request to a demand network
+- one marketplace request to a network of Requests
 
 This requires composable primitives:
 
-- intent objects
-- outcome contracts
+- Intent
+- Outcome
 - memory containers
 - permission scopes
 - agent roles

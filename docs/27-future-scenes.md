@@ -58,7 +58,7 @@ A founder says:
 
 Alpha does not create a full app.
 
-It creates an outcome contract:
+It shapes an Outcome:
 
 > "Find three real customers willing to pay for this problem to be solved."
 
@@ -175,4 +175,3 @@ It does not use the memory for recommendations.
 It does not resurface it for engagement.
 
 It holds it with care.
-

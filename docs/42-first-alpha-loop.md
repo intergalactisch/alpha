@@ -131,7 +131,7 @@ The question is:
 
 > Is this what you mean, and what am I missing?
 
-### 4. Agreed Outcome
+### 4. Outcome
 
 The loop then moves from understanding to outcome.
 
@@ -216,11 +216,11 @@ The question is:
 
 The loop can be written as:
 
-> Intent -> Context -> Aligned Understanding -> Agreed Outcome -> Fitting Form -> Cared-For Result.
+> Intent -> Context -> Aligned Understanding -> Outcome -> Fitting Form -> Cared-For Result.
 
 For Personal Direction, the loop can be written as:
 
-> Intent -> Context -> Aligned Direction -> Agreed Outcome -> Fitting Form -> Cared-For Movement.
+> Intent -> Context -> Aligned Direction -> Outcome -> Fitting Form -> Cared-For Movement.
 
 Or shorter:
 

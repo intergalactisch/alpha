@@ -9,11 +9,16 @@ Alpha is still abstract and alive. Entries should describe meaningful conceptual
 ### Added
 
 - Added `AGENTS.md` as the compact operating map for agent work, naming discipline, and conceptual responsibility boundaries.
+- Added `Intent, Outcome, Request` as the canonical triad document for sourced direction, meaningful enoughness, and asking an actor or capability to help.
 
 ### Changed
 
 - Aligned active terminology around Life Graph, Memory Layer, Process Layer, Boundary Layer, and artifacts as small accountable handles.
 - Replaced stale active references to Experience Graph, Memory Object, Process Object, Permission Ledger, consent ledger, and artifact-as-holder language with the current canonical responsibility model.
+- Added agent and sub-agent identity as a requirement for intent source, operational intent, provenance, and traceability.
+- Resolved `Intent` as the canonical name for sourced direction, instead of reducing it to `Intent Object`.
+- Resolved `Outcome` as the canonical name for what would make Intent meaningfully true enough in context, instead of using `Outcome Contract`.
+- Resolved `Request` as the canonical name for how Alpha asks an actor or capability to help shape an Outcome, instead of using `Demand Object`.
 
 ## 2026-06-09
 

@@ -77,17 +77,15 @@ Context can include:
 
 Context must remain scoped, inspectable, editable, and deletable.
 
-### 4. Create Outcome Contracts
+### 4. Shape Outcome
 
-Provisional name. Here, "contract" means an editable human agreement about success, not a provider capability contract.
-
-Alpha should translate intent into a current definition of success.
+Alpha should translate Intent into Outcome: a current, inspectable understanding of what would make the intent meaningfully true enough in context.
 
 Example:
 
 > "This should help the family feel closer this month without increasing screen time or putting planning pressure on the children."
 
-The outcome contract should be editable.
+Outcome should be editable.
 
 ### 5. Compose The Right Form
 
@@ -102,7 +100,7 @@ Alpha should decide what form best serves the outcome:
 - shared memory
 - media flow
 - business workflow
-- demand object
+- Request
 - message draft
 - gathering
 - document
@@ -120,6 +118,20 @@ Alpha can use agents, but should not make the user manage a swarm.
 Agents, tools, models, and providers should connect through capability contracts.
 
 They are replaceable workers, not Alpha's core identity.
+
+They still need identities.
+
+Each agent and sub-agent should have a scoped identifier, role, capability contract, authority scope, lineage, and process context.
+
+This lets Alpha trace:
+
+- which agent initiated a derived intent
+- which agent handled a step
+- which model, provider, or tool powered it
+- which authority allowed it
+- which outcome, artifact, process, or Life Graph relation it affected
+
+Agent-originated intent must remain operational, derived, explainable, and interruptible.
 
 Agents are backstage roles:
 

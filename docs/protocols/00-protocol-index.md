@@ -38,8 +38,10 @@ Alpha protocols should:
 ## Candidate Future Protocols
 
 - Agent-To-Agent Protocol
+- Agent Identity Protocol
 - Human-To-Alpha Interaction Protocol
 - Artifact Protocol
+- Request Protocol
 - Process State Protocol
 - Queue And Waiting Protocol
 - Memory Access Protocol

@@ -261,7 +261,7 @@ That matters because Alpha should not become social, commercial, or institutiona
 
 The current first seed field can be described as:
 
-> Personal Space: Alpha first becomes visible as a private, care-bound environment where a person can make intent legible and shape an aligned, agreed-upon outcome in their world around them.
+> Personal Space: Alpha first becomes visible as a private, care-bound environment where a person can make intent legible and shape Outcome in their world around them.
 
 Shorter:
 

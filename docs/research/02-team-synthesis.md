@@ -26,8 +26,8 @@ Alpha is best understood as an intent-mediation layer that can compose adaptive 
 
 Important primitives:
 
-- intent object
-- outcome contract
+- Intent
+- Outcome
 - Life Graph
 - generated interface
 - agent cast

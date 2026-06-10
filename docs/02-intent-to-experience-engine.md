@@ -62,15 +62,13 @@ An outcome state includes:
 - Success signals.
 - Anti-goals.
 
-### Demand Object
+### Request
 
-Provisional name.
-
-The structured expression of what the world could provide, create, modify, coordinate, or avoid in response to an intent.
+The structured expression of what an internal or external actor, capability, system, community, service, or world could provide, create, modify, coordinate, answer, decline, or avoid in response to Intent and Outcome.
 
 This is broader than shopping.
 
-A demand object could point toward:
+A Request could point toward:
 
 - a custom product
 - a service
@@ -83,7 +81,7 @@ A demand object could point toward:
 - an institutional action
 - a physical-world arrangement
 
-The demand object protects the user's intent before markets, platforms, feeds, or institutions force it into their predefined menus.
+Request protects Intent before markets, platforms, feeds, or institutions force it into their predefined menus.
 
 ### Experience
 

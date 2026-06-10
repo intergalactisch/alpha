@@ -164,7 +164,7 @@ Instead of targeting users, businesses can publish capabilities:
 - what sustainability or labor commitments apply
 - what they refuse to do
 
-Alpha can match these capabilities to demand objects when the user asks for help.
+Alpha can match these capabilities to Requests when the user asks for help.
 
 The business does not get to invade the user's attention. It becomes discoverable when genuinely relevant.
 
@@ -218,7 +218,7 @@ It should never feel:
 
 Alpha should support:
 
-- demand objects
+- Requests
 - capability registries
 - transparent sponsorship rules
 - no-interruption policy

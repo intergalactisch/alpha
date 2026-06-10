@@ -99,6 +99,36 @@ If a name does not reveal what the part owns, rename or rethink the part.
 
 This map is provisional, but it is the current source of discipline for avoiding overlap.
 
+### Intent
+
+Owns: sourced direction.
+
+Does not own: outcome, request, action, fulfillment, or authority by itself.
+
+Canonical line:
+
+> Intent is sourced direction; Alpha can interpret it, but does not own it.
+
+### Outcome
+
+Owns: what would make Intent meaningfully true enough in context.
+
+Does not own: the living intent, request routing, process execution, or fulfillment.
+
+Canonical line:
+
+> Outcome gives Intent shape.
+
+### Request
+
+Owns: the structured ask for how an actor, capability, system, community, service, or external world could help shape an Outcome.
+
+Does not own: Intent, Outcome, fulfillment, provider selection, or commercial pressure.
+
+Canonical line:
+
+> Request is how Alpha asks an actor or capability to help shape an Outcome.
+
 ### Artifact
 
 Owns: a small accountable digital handle.
@@ -200,6 +230,18 @@ Owns: provider/tool/model/service capability boundaries.
 
 Contracts define what a capability can do, what it may receive, what it returns, what it costs, how it fails, and how it can be swapped.
 
+### Agent Identity
+
+Owns: scoped identity for every agent, sub-agent, tool-using role, or automated actor operating inside Alpha.
+
+Agents must not collapse into one generic `Agent`.
+
+Each agent or sub-agent should have its own identifier, role, capability contract, authority scope, lineage, and current process context.
+
+Canonical line:
+
+> Every agent is an accountable actor, not an anonymous worker in a swarm.
+
 ### Rendering / Interface
 
 Owns: how something appears or is spoken now.
@@ -243,12 +285,18 @@ Current resolved decisions:
 - `Memory Object` should not be canonical. Use Memory Layer, Memory Representation, and Memory Artifact.
 - `Process Object` should not be canonical. Use Process Layer, Process State, Process Artifact, and Process View.
 - `Permission Ledger` should not be canonical. Use Boundary Layer and related boundary terms.
+- `Intent Object` should not be the canonical name. Use `Intent` for sourced direction, and use Intent Artifact, Intent State, or Intent Context Envelope only when the form requires it.
+- `Outcome Contract` should not be the canonical name. Use `Outcome` for what would make intent meaningfully true enough in context; use Outcome State, Outcome Artifact, Outcome View, or Outcome Protocol when the form requires it.
+- `Demand Object` should not be the canonical name. Use `Request` for how Alpha asks an actor or capability to help shape an Outcome; use Request State, Request Artifact, Request View, or Request Protocol when the form requires it.
 
-Known provisional names that still require conceptual grilling before implementation:
+Intent, Outcome, and Request rule:
 
-- `Intent Object`
-- `Outcome Contract`
-- `Demand Object`
+- Intent must carry source, authority, scope, and lineage.
+- Human and group intent can be sovereign.
+- Agent intent can only be derived, scoped, explainable, interruptible, and tied to an identifiable agent actor.
+- No intent should be attributed to a generic `Agent` when a specific agent or sub-agent initiated it.
+- Outcome must remain inspectable, editable, and aligned with Intent, context, boundaries, and care.
+- Request must remain subordinate to Intent and Outcome; it should never become hidden advertising, forced commerce, or autonomous fulfillment pressure.
 
 ### 3. Add Through Contracts, Not Coupling
 
@@ -303,6 +351,7 @@ When a concept becomes durable, update the correct docs and keep this file as th
 - Alpha artifacts: `docs/54-alpha-artifacts.md`
 - Artifact grammar: `docs/55-artifact-grammar-and-families.md`
 - Protocol-native provider-agnostic principle: `docs/56-protocol-native-provider-agnostic.md`
+- Intent, Outcome, Request triad: `docs/57-intent-outcome-request.md`
 - Platform primitives: `docs/04-platform-primitives.md`
 - Security and trust: `docs/07-security-and-trust.md`
 - Protocol index: `docs/protocols/00-protocol-index.md`

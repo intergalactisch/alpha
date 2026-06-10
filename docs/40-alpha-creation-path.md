@@ -430,7 +430,7 @@ Personal space lets Alpha become visible as:
 - holding context
 - caring before capability
 - increasing agency
-- stewarding an aligned and agreed-upon outcome
+- stewarding Outcome in context
 - creating transient forms
 - staying transparent
 - using restraint

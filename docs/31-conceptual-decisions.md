@@ -1219,7 +1219,7 @@ Alpha can output visible things:
 - rituals
 - media flows
 - documents
-- demand objects
+- Requests
 - approvals
 - schedules
 - actions

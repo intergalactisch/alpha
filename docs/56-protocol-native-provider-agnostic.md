@@ -66,6 +66,14 @@ Models should execute capabilities.
 
 They should not define the paradigm.
 
+Agents should also remain identifiable.
+
+Alpha may use many agents, sub-agents, harnesses, and model-backed workers, but they must not collapse into one vague `Agent`.
+
+Each agent or sub-agent should have a scoped identifier, capability contract, authority scope, lineage, and process context.
+
+This matters because intent, provenance, responsibility, and rollback depend on knowing which actor did what.
+
 ## Providers Are Adapters
 
 Every external intelligence or execution system should enter Alpha as an adapter behind a capability contract.

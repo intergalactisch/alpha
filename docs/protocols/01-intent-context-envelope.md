@@ -16,6 +16,9 @@ No provider should define the envelope's meaning.
 
 An Intent Context Envelope carries enough information for a person, agent, tool, artifact, or process to understand:
 
+- who or what is sending or acting
+- where the intent came from
+- what authority it has
 - what the person may mean
 - what context matters
 - what outcome is being shaped
@@ -33,9 +36,37 @@ Without a shared envelope, parts of the system may act as if they understand eac
 
 ## Conceptual Fields
 
+### `actor`
+
+The person, group, Alpha agent, sub-agent, tool, process, or external Alpha that created, sent, or is acting through the envelope.
+
+AI work must not be attributed to one generic `Agent`.
+
+Every agent and sub-agent should have a scoped identifier.
+
+The actor field should include enough information to understand:
+
+- actor id
+- actor type
+- role
+- authority scope
+- capability contract
+- parent or spawning actor when relevant
+- provider or model adapter when relevant
+
+### `intent_source`
+
+Where the current intent came from.
+
+Intent may come from a person, group, agent, sub-agent, process, boundary, context signal, artifact, memory representation, non-event, or prior outcome.
+
+Human and group intent can be sovereign.
+
+Agent intent can only be derived, scoped, explainable, interruptible, and tied to an identifiable actor.
+
 ### `intent`
 
-What the person or group appears to want, in human-readable form.
+What is currently being pursued or interpreted, in human-readable form.
 
 This should include confidence and room for correction.
 
@@ -95,6 +126,20 @@ This could be asking, drafting, waiting, showing options, doing nothing, startin
 
 ```json
 {
+  "actor": {
+    "id": "actor_scoped_id",
+    "type": "person | group | alpha_agent | sub_agent | tool | process | external_alpha",
+    "role": "optional human-readable role",
+    "parent_actor_id": "optional",
+    "capability_contract": "optional",
+    "authority_scope": "none | suggest | draft | prepare | act_with_approval | act_within_scope"
+  },
+  "intent_source": {
+    "source_actor_id": "actor_scoped_id",
+    "source_type": "spoken | inferred | derived | delegated | boundary_triggered | process_triggered | context_triggered",
+    "lineage": [],
+    "human_authority": "optional person/group authority reference"
+  },
   "intent": {
     "summary": "Human-readable intent",
     "confidence": "low | medium | high",

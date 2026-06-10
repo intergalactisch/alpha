@@ -8,7 +8,13 @@ The deeper platform needs new primitives.
 
 Naming note:
 
-`Intent Object`, `Outcome Contract`, and `Demand Object` are still provisional working names. They describe important responsibilities, but their final names should be grilled against the Alpha naming grammar before implementation. In particular, `Outcome Contract` here means an editable human agreement about success, not a provider capability contract.
+`Intent` is the current canonical name for sourced direction. It should not be reduced to an object by default.
+
+`Outcome` is the current canonical name for what would make intent meaningfully true enough in context. It should not be called a contract by default; `Contract` remains reserved for capability boundaries.
+
+`Request` is the current canonical name for how Alpha asks an actor, capability, system, community, service, or external world to help shape an Outcome.
+
+See also: [Intent, Outcome, Request](57-intent-outcome-request.md).
 
 ## 0. Protocol-Native Substrate
 
@@ -38,11 +44,38 @@ This substrate should support:
 
 If a primitive only works because one provider behaves in one specific way, the primitive is not stable enough.
 
-## 1. Intent Object
+## 1. Intent
 
-A durable representation of what someone or some group wants.
+Sourced direction around what a person, group, agent, process, or context signal is trying to pursue, explore, understand, protect, prepare, or change.
 
-An intent object includes:
+Intent is not owned by Alpha.
+
+Alpha can interpret intent, represent intent, exchange intent, connect intent, and make intent handleable when useful.
+
+But the living intent remains situated in its source and context.
+
+Intent is not always spoken by a user.
+
+Alpha may also form derived operational intents through agents, sub-agents, process signals, boundary checks, context changes, non-events, or system observations.
+
+That does not make every intent equal.
+
+Human and group intent can be sovereign.
+
+Agent intent can only be derived, scoped, explainable, interruptible, and subordinate to human authority, boundaries, care, and context.
+
+Every intent representation should be able to name:
+
+- source actor
+- authority actor or authority basis
+- scope
+- lineage
+- current status
+- boundary constraints
+
+No agent-originated intent should be attributed to a generic `Agent` when a specific agent or sub-agent initiated it.
+
+Intent may include:
 
 - desired outcome
 - emotional target
@@ -59,23 +92,38 @@ Example:
 
 > "Make our group feel close again, without requiring a big planning burden, over the next four weeks."
 
-## 2. Outcome Contract
+## 2. Outcome
 
-The system's current interpretation of success.
+What would make Intent meaningfully true enough in context.
 
-This should be inspectable and editable by the user. It prevents Alpha from drifting into generic engagement.
+Outcome gives Intent shape.
+
+It should be inspectable and editable by the user or relevant authority. It prevents Alpha from drifting into generic engagement, overbuilding, or optimizing the wrong thing.
+
+Outcome may include:
+
+- success meaning
+- current status
+- enoughness signals
+- care requirements
+- boundaries
+- context
+- participants
+- time horizon
+- uncertainty
+- ways it can be corrected, paused, revised, fulfilled, or abandoned
 
 Example:
 
 > "Success means at least three members participate weekly, one real meetup is scheduled, and the group creates one shared artifact they actually enjoy."
 
-## 3. Demand Object
+## 3. Request
 
-A structured request for what the world might create, customize, assemble, source, coordinate, or refuse in response to an intent.
+A structured, inspectable ask for what an internal or external actor, capability, system, community, service, or world might create, customize, assemble, source, coordinate, answer, decline, or transform in response to Intent and Outcome.
 
-The demand object is how Alpha moves beyond finite catalogs.
+Request is how Alpha moves beyond finite catalogs without turning every need into advertising, shopping, or extraction.
 
-It can represent:
+Request can represent:
 
 - products
 - services
@@ -88,7 +136,7 @@ It can represent:
 - institutional actions
 - physical-world changes
 
-It should include:
+Request may include:
 
 - desired outcome
 - constraints
@@ -255,6 +303,20 @@ Canonical rule:
 
 Alpha should feel like one coherent system, but internally it can cast agents into roles.
 
+Those roles should never become one anonymous heap.
+
+Every agent and sub-agent should have a scoped identifier.
+
+That identifier should make it possible to ask:
+
+- Which agent did this?
+- Which model, tool, or provider powered it?
+- Which capability contract allowed it?
+- Which intent or process spawned it?
+- What authority did it have?
+- What did it affect?
+- Can it be paused, replaced, inspected, or stopped?
+
 Possible roles:
 
 - Game Master
@@ -272,6 +334,10 @@ Possible roles:
 - Builder
 
 The user should not have to manage the cast manually. Alpha should reveal roles only when it helps trust or control.
+
+Canonical rule:
+
+> Agents are accountable actors, not anonymous background magic.
 
 ## 7. Boundary Layer
 
@@ -437,7 +503,7 @@ Eventually Alpha can coordinate external action:
 - human helpers
 - robots and devices
 
-This turns intent into a demand object.
+This turns Intent and Outcome into a Request.
 
 The first MVP can simulate fulfillment manually or require user approval for every step.
 

@@ -222,21 +222,23 @@ Then Alpha can decide whether the right response is:
 
 Sometimes the best generated outcome is not more stuff.
 
-## Platform Primitive: Demand Object
+## Platform Primitive: Request
 
-Provisional name.
+Alpha may need Request alongside Intent and Outcome.
 
-Alpha may need a demand object alongside the intent object.
+Intent says:
 
-An intent object says:
+> what state, direction, question, care, or possibility is being pursued.
 
-> what state the user wants to move toward.
+Outcome says:
 
-A demand object says:
+> what would make Intent meaningfully true enough in context.
 
-> what the world could provide, create, modify, or coordinate to help that state become real.
+Request says:
 
-A demand object includes:
+> what an internal or external actor, capability, system, community, service, or world could provide, create, modify, coordinate, answer, decline, or transform to help that Outcome become real.
+
+A Request includes:
 
 - desired outcome
 - constraints
@@ -251,7 +253,7 @@ A demand object includes:
 - acceptable fulfillment types
 - human approval requirements
 
-This object can become the basis for:
+Request can become the basis for:
 
 - agent search
 - custom generation

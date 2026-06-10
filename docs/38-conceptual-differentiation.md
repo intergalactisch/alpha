@@ -237,7 +237,7 @@ Difference:
 
 Why it is tempting:
 
-Alpha may eventually need protocols for identity, permissions, memory portability, provenance, agent actions, intent objects, and cross-system coordination.
+Alpha may eventually need protocols for identity, permissions, memory portability, provenance, agent actions, Intent, and cross-system coordination.
 
 Why it is insufficient:
 

@@ -34,6 +34,7 @@ Every Alpha spec should try to state:
 - Life Graph Clustering Spec
 - Process State Spec
 - Artifact Spec
+- Request Spec
 - Boundary Layer Spec
 - Media-Agnostic Option Spec
 - Child Interaction Spec
@@ -42,4 +43,5 @@ Every Alpha spec should try to state:
 - Cost And Sustainability Spec
 - Protocol-Native Provider-Agnostic Spec
 - Capability Contract Spec
+- Agent Identity Spec
 - Alpha-To-Alpha Communication Spec

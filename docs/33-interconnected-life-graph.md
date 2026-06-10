@@ -145,6 +145,8 @@ Possible node families include:
 - providers
 - tools
 - agents
+- agent identities
+- agent-originated intents
 - costs
 - decisions
 - open loops
@@ -176,6 +178,9 @@ Examples:
 - this artifact belongs to this shared group context
 - this outcome was shaped by these three intents
 - this provider contributed to this generated artifact
+- this specific agent initiated this derived intent
+- this sub-agent was spawned by this process
+- this agent acted under this capability contract
 - this action may affect this person, process, or relationship
 
 Possible relationship claim types:
@@ -244,6 +249,12 @@ Possible graph events:
 - `permission_changed`
 - `context_changed`
 - `provider_used`
+- `agent_used`
+- `agent_spawned`
+- `agent_handoff`
+- `initiated_by`
+- `authorized_by`
+- `performed_by`
 - `artifact_created`
 - `artifact_updated`
 - `relationship_added`

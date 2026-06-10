@@ -131,9 +131,7 @@ Example:
 
 Alpha creates only the minimum workflows needed for customer learning and first revenue.
 
-### 5. Post-Ad Demand Object
-
-Provisional name.
+### 5. Post-Ad Request
 
 Intent:
 
@@ -149,7 +147,7 @@ Tests:
 
 Example:
 
-A user states a need. Alpha turns it into a structured demand object and shows how different providers or creators might help, with no hidden ranking.
+A user states a need. Alpha turns it into a structured Request and shows how different providers or creators might help, with no hidden ranking.
 
 ### 6. Child-Safe Creative World
 

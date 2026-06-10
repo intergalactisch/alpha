@@ -95,7 +95,7 @@ Alpha decides the right form:
 - ritual
 - generated UI
 - memory artifact
-- demand object
+- Request
 - message draft
 - media flow
 - business workflow
@@ -269,6 +269,22 @@ For stronger identity and claims, existing standards such as verifiable credenti
 
 Alpha can use a runtime where models call tools, hand work to specialized agents, and trace what happened.
 
+Every agent and sub-agent in that runtime should have a scoped identifier.
+
+Alpha should not treat all AI work as coming from one vague `Agent`.
+
+Agent identity should connect to:
+
+- role
+- capability contract
+- current process
+- source intent
+- derived operational intent
+- authority scope
+- model or provider used
+- tool calls and handoffs
+- affected artifacts, outcomes, and Life Graph relations
+
 This can already be built with:
 
 - tool/function calling
@@ -413,9 +429,7 @@ Alpha might output:
 - sensitive containers
 - life timelines
 
-### Demand Objects
-
-Provisional name.
+### Requests
 
 - structured needs
 - budget-aware requests

@@ -103,7 +103,7 @@ Alpha lives where all three meet.
 1. A person or group expresses intent.
 2. Alpha reflects what it understands.
 3. Boundaries, context, consent, and memory are clarified.
-4. Alpha forms an outcome contract.
+4. Alpha shapes an Outcome.
 5. Alpha composes the right agents, tools, rituals, media, interfaces, and actions.
 6. The experience happens.
 7. Alpha observes only the signals it is allowed to observe.
@@ -141,4 +141,3 @@ while still knowing when to:
 ## The Paradigm In One Sentence
 
 Alpha is a humane intent layer that helps people and groups shape lived experience across software, media, memory, culture, economics, communication, and the physical world without surrendering trust, attention, childhood, creativity, or dignity.
-

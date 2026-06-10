@@ -67,7 +67,7 @@ Foundational architecture law:
 - [Security And Trust](docs/07-security-and-trust.md): why felt safety, sovereignty, consent, and auditability must be native to the paradigm.
 - [Humane Interaction And Sustainability](docs/08-humane-interaction-and-sustainability.md): ease, transparency, deletion, expansion, naturalness, and ecological responsibility.
 - [Cost And Scale](docs/09-cost-and-scale.md): how Alpha should work with the least sufficient compute, cost, complexity, and interface burden while scaling broadly.
-- [Generative Demand](docs/10-generative-demand.md): the shift from finite catalogs and predefined offerings to intent-shaped products, services, media, tools, and systems.
+- [Generative Demand](docs/10-generative-demand.md): the shift from finite catalogs and predefined offerings to Request-shaped products, services, media, tools, and systems.
 - [Working Principles](docs/11-working-principles.md): the current compass for evolving Alpha without freezing it too early.
 - [Post-Advertising](docs/12-post-advertising.md): the shift from interruption, persuasion, and market capture toward care, contribution, and intent-aligned fulfillment.
 - [Optional Reciprocity](docs/13-optional-reciprocity.md): how people, creators, maintainers, communities, and businesses can help and reward each other without coercion.
@@ -113,6 +113,7 @@ Foundational architecture law:
 - [Alpha Artifacts](docs/54-alpha-artifacts.md): artifacts as small accountable digital handles that can support intent, context, state, memory, boundaries, process, and possible next actions.
 - [Artifact Grammar And Families](docs/55-artifact-grammar-and-families.md): artifact core, families, roles, lineage, visibility, and supporting purpose.
 - [Protocol-Native Provider-Agnostic Alpha](docs/56-protocol-native-provider-agnostic.md): the constitutional architecture principle that Alpha depends on contracts, protocols, and interchangeable capabilities, not any provider.
+- [Intent, Outcome, Request](docs/57-intent-outcome-request.md): the current Alpha triad for sourced direction, meaningful enoughness, and asking an actor or capability to help.
 - [MVP Options](docs/mvp/01-mvp-options.md): possible beachheads and wedge products.
 - [Alpha Social Game Master](docs/mvp/02-alpha-social-game-master.md): one vivid MVP probe for the social-life edge of the broader paradigm.
 - [Research Map](docs/research/01-research-map.md): assumptions, questions, and investigation threads.

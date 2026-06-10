@@ -167,7 +167,7 @@ But Alpha should still support productive and creative movement when those are p
 
 The loop becomes:
 
-> Intent -> Context -> Aligned Direction -> Agreed Outcome -> Fitting Form -> Cared-For Movement.
+> Intent -> Context -> Aligned Direction -> Outcome -> Fitting Form -> Cared-For Movement.
 
 This is slightly different from the previous First Alpha Loop.
 

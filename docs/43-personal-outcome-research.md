@@ -22,11 +22,11 @@ Plain-language north star:
 
 First seed field:
 
-> Personal Space: Alpha first becomes visible as a private, care-bound environment where a person can make intent legible and shape an aligned, agreed-upon outcome in their world around them.
+> Personal Space: Alpha first becomes visible as a private, care-bound environment where a person can make intent legible and shape an Outcome in their world around them.
 
 First Alpha loop:
 
-> Personal Intent -> Contextual Clarification -> Aligned Understanding -> Agreed Outcome -> Fitting Form -> Cared-For Result.
+> Personal Intent -> Contextual Clarification -> Aligned Understanding -> Outcome -> Fitting Form -> Cared-For Result.
 
 The research question is not:
 
