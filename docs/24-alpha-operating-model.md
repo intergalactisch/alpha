@@ -100,7 +100,6 @@ Alpha should decide what form best serves the outcome:
 - shared memory
 - media flow
 - business workflow
-- Request
 - message draft
 - gathering
 - document
@@ -278,7 +277,7 @@ Conceptually, Alpha can be understood through responsibilities:
 2. Life Graph: retrieves scoped relationships, context, relevant artifacts, and current connectedness.
 3. Memory Layer: preserves, forgets, or shares what should continue.
 4. Boundary Layer: applies consent, permissions, boundaries, provenance, and child safety.
-5. Alignment Layer: checks interpretation, outcome, artifact, process, and action against intent, context, boundaries, care, and agreed result.
+5. Alignment Layer: checks interpretation, outcome, artifact, process, and action against intent, context, boundaries, care, and aligned result.
 6. Composition: chooses agents, workflows, tools, media, rituals, interfaces, or no visible form.
 7. Rendering / Interface: presents the right medium, surface, voice, or silence.
 8. Process Layer: tracks waiting, queues, loops, elapsed time, dependencies, and background work.

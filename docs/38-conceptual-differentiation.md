@@ -38,7 +38,7 @@ An assistant still assumes a user giving tasks to a helper.
 
 That keeps the frame too small:
 
-- request
+- ask
 - response
 - task
 - tool call

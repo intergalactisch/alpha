@@ -170,7 +170,7 @@ They can become available through:
 
 - capability registries
 - verified channels
-- user-requested updates
+- user-initiated updates
 - consented community spaces
 - opt-in follow-ups
 - explicit fulfillment workflows
@@ -234,4 +234,3 @@ The question is not:
 The question is:
 
 > Do they want to be reached, by whom, for what, and in what way?
-

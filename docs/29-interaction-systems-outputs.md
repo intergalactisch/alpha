@@ -95,7 +95,7 @@ Alpha decides the right form:
 - ritual
 - generated UI
 - memory artifact
-- Request
+- structured need
 - message draft
 - media flow
 - business workflow
@@ -429,13 +429,13 @@ Alpha might output:
 - sensitive containers
 - life timelines
 
-### Requests
+### Structured Needs
 
 - structured needs
-- budget-aware requests
+- budget-aware needs
 - capability matches
 - commission briefs
-- service requests
+- service inquiries
 - product/service specifications
 
 ### Actions

@@ -10,11 +10,15 @@ Naming note:
 
 `Intent` is the current canonical name for sourced direction. It should not be reduced to an object by default.
 
-`Outcome` is the current canonical name for what would make intent meaningfully true enough in context. It should not be called a contract by default; `Contract` remains reserved for capability boundaries.
+`Outcome` is the current canonical name for the aligned understanding of what would make intent meaningfully true enough in context. It should not be called a contract by default; `Contract` remains reserved for capability boundaries.
 
-`Request` is the current canonical name for how Alpha asks an actor, capability, system, community, service, or external world to help shape an Outcome.
+`Align` is the current canonical name for reaching shared understanding between Alpha and the relevant authority.
 
-See also: [Intent, Outcome, Request](57-intent-outcome-request.md).
+See also: [Intent, Align, Outcome](57-intent-align-outcome.md).
+
+`Thread` is the current canonical name for the organizing reference around Intent, Align, and Outcome.
+
+See also: [Alpha Threads](58-alpha-threads.md).
 
 ## 0. Protocol-Native Substrate
 
@@ -92,13 +96,80 @@ Example:
 
 > "Make our group feel close again, without requiring a big planning burden, over the next four weeks."
 
-## 2. Outcome
+## 1a. Thread
 
-What would make Intent meaningfully true enough in context.
+The organizing reference every Intent opens on its way toward Outcome.
 
-Outcome gives Intent shape.
+Thread owns the organizing reference around Intent, Align, and Outcome.
 
-It should be inspectable and editable by the user or relevant authority. It prevents Alpha from drifting into generic engagement, overbuilding, or optimizing the wrong thing.
+It does not own meaning, work, artifacts, relationships, permissions, memory, rendering, execution, lifecycle ceremony, or status by default.
+
+Every Intent must have a Thread reference.
+
+An Intent may open a new Thread or enter an existing Thread when the scope is clear.
+
+A Thread can be tiny, quiet, temporary, or fulfilled in seconds.
+
+It can also become durable, shared, revisited, forked, merged, or connected to many artifacts and process states.
+
+Thread prevents Alpha from leaving the movement to loose model inference without a shared reference.
+
+Core rules:
+
+> Every Intent opens a Thread.
+
+> Thread must not become ceremonial.
+
+> Thread is the organizing reference; it does not own meaning, work, artifacts, or relationships.
+
+> Everything in the movement can point to the Thread; extra explanations explain why.
+
+Thread can help Alpha answer:
+
+- what this is about
+- which Intent opened this movement
+- which parts of Align changed understanding
+- which Outcome is current
+- which artifacts support the Outcome
+- which process states are waiting
+- which agents acted inside scope
+- which boundaries apply
+
+## 2. Align
+
+The act of reaching shared understanding between Alpha and the relevant authority.
+
+Align asks:
+
+- Do I understand what is meant?
+- In this context?
+- With these boundaries?
+- With this uncertainty?
+- Under this authority?
+
+Align may include:
+
+- listening
+- reflecting
+- clarifying
+- checking assumptions
+- sensing context
+- checking boundaries
+- exposing uncertainty
+- asking a small question
+- accepting correction
+- refusing unsafe direction
+- doing nothing
+
+Example:
+
+> "It sounds like you do not want to become more productive; you want your week to feel less fragmented. Is that right?"
+
+## 3. Outcome
+
+The aligned understanding of what would make Intent meaningfully true enough in context.
+
+Outcome is not execution.
 
 Outcome may include:
 
@@ -115,40 +186,7 @@ Outcome may include:
 
 Example:
 
-> "Success means at least three members participate weekly, one real meetup is scheduled, and the group creates one shared artifact they actually enjoy."
-
-## 3. Request
-
-A structured, inspectable ask for what an internal or external actor, capability, system, community, service, or world might create, customize, assemble, source, coordinate, answer, decline, or transform in response to Intent and Outcome.
-
-Request is how Alpha moves beyond finite catalogs without turning every need into advertising, shopping, or extraction.
-
-Request can represent:
-
-- products
-- services
-- tools
-- media
-- business systems
-- education paths
-- community rituals
-- games
-- institutional actions
-- physical-world changes
-
-Request may include:
-
-- desired outcome
-- constraints
-- budget
-- time horizon
-- quality bar
-- sustainability preference
-- privacy constraints
-- acceptable fulfillment types
-- human approval requirements
-
-Shopping is one example. The larger primitive is generative demand.
+> "Enough means the group feels closer this month without creating planning pressure or more screen time."
 
 ## 4. Life Graph
 
@@ -156,7 +194,7 @@ The Life Graph is Alpha's queryable context and relationship engine.
 
 It is Alpha-native but human-governed.
 
-It connects intents, artifacts, memory representations, processes, boundaries, people, groups, contexts, outcomes, sources, tools, agents, and graph events through scoped, permission-aware relationships.
+It connects threads, intents, Align, artifacts, memory representations, processes, boundaries, people, groups, contexts, outcomes, sources, tools, agents, and graph events through scoped, permission-aware relationships.
 
 The Life Graph owns:
 
@@ -503,7 +541,7 @@ Eventually Alpha can coordinate external action:
 - human helpers
 - robots and devices
 
-This turns Intent and Outcome into a Request.
+This may connect Threads, Intents, and Outcomes to processes, artifacts, actions, or no visible output at all.
 
 The first MVP can simulate fulfillment manually or require user approval for every step.
 

@@ -16,7 +16,7 @@ It describes the conceptual movement from personal intent to cared-for outcome.
 
 The first Alpha loop is:
 
-> personal intent becomes aligned understanding, agreed outcome, and cared-for result.
+> personal intent becomes aligned understanding, aligned outcome, and cared-for result.
 
 Current correction:
 
@@ -24,7 +24,7 @@ Current correction:
 
 Expanded:
 
-> A person expresses intent; Alpha helps clarify meaning and context; together they form an aligned understanding; that understanding becomes an agreed outcome; Alpha helps the outcome stay cared-for without overreaching.
+> A person expresses intent; Alpha helps clarify meaning and context; together they form an aligned understanding; that understanding becomes an aligned outcome; Alpha helps the outcome stay cared-for without overreaching.
 
 This is the first visible expression of:
 
@@ -145,7 +145,7 @@ The outcome is not merely:
 
 The outcome is:
 
-> the agreed result that would honor the user's intent.
+> the aligned result that would honor the user's intent.
 
 It should be:
 
@@ -237,7 +237,7 @@ The loop maps directly to the kernel:
 - Intent: the person brings direction.
 - Context: meaning is clarified.
 - Care: capability waits until human stakes are understood.
-- Agency: the outcome is agreed, not imposed.
+- Agency: the outcome is aligned, not imposed.
 - Continuity: the outcome can live over time.
 - Transient Form: the form appears only as needed.
 - Transparency: understanding and assumptions are askable.
@@ -312,7 +312,7 @@ Intent:
 
 > I feel like something in my life is changing, but I do not know what to do with it.
 
-Possible agreed outcome:
+Possible aligned outcome:
 
 > create a small, low-pressure way to understand this transition over the next two weeks.
 
@@ -322,7 +322,7 @@ Intent:
 
 > I want to make something, but I do not know what it is yet.
 
-Possible agreed outcome:
+Possible aligned outcome:
 
 > shape the vague creative urge into one private experiment worth returning to.
 
@@ -332,7 +332,7 @@ Intent:
 
 > I want this room to feel like it fits who I am becoming.
 
-Possible agreed outcome:
+Possible aligned outcome:
 
 > make one small change to the space that reflects the new season without turning it into a shopping project.
 
@@ -342,7 +342,7 @@ Intent:
 
 > I want to keep this memory, but I do not want it to become heavy.
 
-Possible agreed outcome:
+Possible aligned outcome:
 
 > preserve the meaning of the memory in a private, gentle form that can fade or change later.
 
@@ -352,7 +352,7 @@ Intent:
 
 > This thing is weighing on me and I need it to become manageable.
 
-Possible agreed outcome:
+Possible aligned outcome:
 
 > make the burden clear, bounded, and smaller without turning it into a productivity regime.
 

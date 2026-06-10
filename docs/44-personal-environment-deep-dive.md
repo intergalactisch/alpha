@@ -8,7 +8,7 @@ Correction:
 
 > Personal Environment is no longer the recommended first center.
 
-The stronger first center is **Personal Direction**: helping a person orchestrate what they want to do now into aligned, agreed, cared-for outcomes under their own direction and in their own way.
+The stronger first center is **Personal Direction**: helping a person orchestrate what they want to do now into aligned, cared-for outcomes under their own direction and in their own way.
 
 Personal Environment remains valuable as one expression of Personal Direction.
 
@@ -259,7 +259,7 @@ A Personal Environment outcome is not:
 
 It is:
 
-> an agreed change in the person's immediate world that makes their intent more livable.
+> an aligned change in the person's immediate world that makes their intent more livable.
 
 It could be:
 
@@ -396,7 +396,7 @@ Personal Environment is bounded by:
 - one person
 - one intent
 - one immediate context
-- one agreed outcome
+- one aligned outcome
 - one fitting form
 - one cared-for result
 
@@ -448,7 +448,7 @@ The corrected hypothesis is:
 
 When relevant, a Personal Environment outcome may be:
 
-> a small, agreed change in a person's immediate environment that makes their intent more livable.
+> a small, aligned change in a person's immediate environment that makes their intent more livable.
 
 Shorter:
 

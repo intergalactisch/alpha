@@ -9,7 +9,8 @@ Alpha is still abstract and alive. Entries should describe meaningful conceptual
 ### Added
 
 - Added `AGENTS.md` as the compact operating map for agent work, naming discipline, and conceptual responsibility boundaries.
-- Added `Intent, Outcome, Request` as the canonical triad document for sourced direction, meaningful enoughness, and asking an actor or capability to help.
+- Added `Intent, Align, Outcome` as the canonical core movement document for sourced direction, shared understanding, and meaningful enoughness.
+- Added `Alpha Threads` as the organizing reference around Intent, Align, Outcome, and the surrounding work that must stay understandable without ceremony.
 
 ### Changed
 
@@ -18,7 +19,7 @@ Alpha is still abstract and alive. Entries should describe meaningful conceptual
 - Added agent and sub-agent identity as a requirement for intent source, operational intent, provenance, and traceability.
 - Resolved `Intent` as the canonical name for sourced direction, instead of reducing it to `Intent Object`.
 - Resolved `Outcome` as the canonical name for what would make Intent meaningfully true enough in context, instead of using `Outcome Contract`.
-- Resolved `Request` as the canonical name for how Alpha asks an actor or capability to help shape an Outcome, instead of using `Demand Object`.
+- Resolved `Thread` as the organizing reference around Intent, Align, and Outcome, without making it a project, task list, artifact container, Life Graph, or permission system.
 
 ## 2026-06-09
 

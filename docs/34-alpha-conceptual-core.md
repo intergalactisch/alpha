@@ -57,7 +57,7 @@ But intent is not a command.
 
 It is alive, evolving, contextual, and sometimes uncertain.
 
-Alpha should steward intent, not obey every request literally.
+Alpha should steward intent, not obey every instruction literally.
 
 It should ask:
 

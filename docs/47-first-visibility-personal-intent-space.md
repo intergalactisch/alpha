@@ -133,7 +133,7 @@ It helps move from:
 
 to:
 
-> aligned and agreed understanding
+> aligned understanding
 
 to:
 
@@ -150,7 +150,7 @@ The conceptual movement:
 3. Context is clarified only as much as needed.
 4. Alpha reflects what it thinks the person means.
 5. The person can correct, refine, reject, or continue.
-6. Together they form an agreed outcome.
+6. Together they form an aligned outcome.
 7. Alpha helps the outcome take a fitting form.
 8. The form remains askable, reversible, bounded, and able to fade.
 9. If the result did not fit, Alpha can learn from that misalignment without judging, profiling, or trapping the person.
@@ -253,7 +253,7 @@ Sometimes the best support is helping someone keep a possibility alive without m
 
 The outcome should be:
 
-> the aligned and agreed-upon understanding and result of the user's intent.
+> the aligned understanding and result of the user's intent.
 
 That phrase matters.
 

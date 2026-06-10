@@ -180,7 +180,7 @@ If something fails, Alpha should:
 - recover automatically when safe
 - explain the human consequence
 - offer the next useful step
-- hide implementation detail unless explicitly requested
+- hide implementation detail unless explicitly asked for
 - log diagnostics privately
 
 The experience should feel:

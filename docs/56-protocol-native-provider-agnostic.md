@@ -174,7 +174,7 @@ They may exchange:
 - relevant boundaries
 - proposed options
 - shared artifact references
-- agreed next steps
+- accepted next steps
 
 They should avoid exposing:
 

@@ -306,7 +306,7 @@ Can it later expand into other domains without losing the concept?
 
 ### Personal Space
 
-Alpha first becomes visible in a person's personal space, where it can help create an aligned and agreed-upon understanding and result of the user's intent in their world around them.
+Alpha first becomes visible in a person's personal space, where it can help create an aligned understanding and result of the user's intent in their world around them.
 
 Risk:
 
@@ -314,7 +314,7 @@ Risk:
 
 Strength:
 
-> creates the first direct experience of Alpha as intent becoming aligned, agreed, and cared-for outcome.
+> creates the first direct experience of Alpha as intent becoming aligned and cared-for outcome.
 
 ### Trusted Communication
 

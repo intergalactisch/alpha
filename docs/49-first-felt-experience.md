@@ -388,11 +388,11 @@ Felt quality:
 
 > I know what is protected.
 
-### 6. Agreement
+### 6. Alignment
 
-The person and Alpha arrive at an agreed outcome.
+The person and Alpha arrive at an aligned outcome.
 
-The agreement can remain small, temporary, exploratory, or unfinished.
+The alignment can remain small, temporary, exploratory, or unfinished.
 
 It does not need to become a big plan.
 
@@ -625,7 +625,7 @@ Question:
 
 Recommended answer:
 
-> Alpha should not be slow by default. It should be context-sensitive. It can be fast when the intent is simple, low-risk, and already agreed. It should slow down when stakes, uncertainty, privacy, children, money, publicness, relationships, sexuality, memory, culture, or safety are involved.
+> Alpha should not be slow by default. It should be context-sensitive. It can be fast when the intent is simple, low-risk, and already aligned. It should slow down when stakes, uncertainty, privacy, children, money, publicness, relationships, sexuality, memory, culture, or safety are involved.
 
 This distinction matters.
 

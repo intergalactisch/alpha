@@ -222,48 +222,35 @@ Then Alpha can decide whether the right response is:
 
 Sometimes the best generated outcome is not more stuff.
 
-## Platform Primitive: Request
+## Generative Demand In Alpha
 
-Alpha may need Request alongside Intent and Outcome.
+Alpha may support generative demand without turning it into a mandatory commercial workflow.
 
 Intent says:
 
 > what state, direction, question, care, or possibility is being pursued.
 
+Align says:
+
+> whether Alpha and the relevant authority understand the intent together, in context.
+
 Outcome says:
 
 > what would make Intent meaningfully true enough in context.
 
-Request says:
+From there, Alpha may support:
 
-> what an internal or external actor, capability, system, community, service, or world could provide, create, modify, coordinate, answer, decline, or transform to help that Outcome become real.
-
-A Request includes:
-
-- desired outcome
-- constraints
-- budget
-- time horizon
-- quality bar
-- customization needs
-- sustainability preference
-- source preference
-- privacy constraints
-- safety requirements
-- acceptable fulfillment types
-- human approval requirements
-
-Request can become the basis for:
-
-- agent search
+- capability matching
 - custom generation
-- marketplace requests
+- marketplace interaction
 - vendor bids
 - creator commissions
 - local service coordination
 - product fabrication
 - business tooling
 - media assembly
+
+Only add structure where it helps consent, comparison, quality, cost, sustainability, or safety.
 
 ## Risks
 

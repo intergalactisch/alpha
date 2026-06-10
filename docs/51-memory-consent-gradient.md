@@ -298,7 +298,7 @@ Examples:
 - the current thing being shaped
 - temporary preferences for this session
 - a working interpretation
-- an agreed outcome for this interaction
+- an aligned outcome for this interaction
 - a set of options being refined
 
 This can be remembered quietly during the session.

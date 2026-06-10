@@ -71,6 +71,7 @@ Use names that reveal context, concept, and role. Avoid vague names that hide ow
 Canonical naming grammar:
 
 - **Layer** = owns a broad responsibility over time.
+- **Thread** = owns the organizing reference around Intent, Align, and Outcome.
 - **Graph** = owns relationships, contextual connectedness, and queryability.
 - **Protocol** = owns exchange between parts or Alphas.
 - **Contract** = owns a capability boundary with providers, tools, models, services, or agents.
@@ -83,6 +84,7 @@ Canonical naming grammar:
 Examples:
 
 - `Memory Layer`, not `Memory Object`, for continuity stewardship.
+- `Thread`, not project, folder, status machine, or chat thread, for the organizing reference around Intent, Align, and Outcome.
 - `Process Layer` and `Process State`, not a catch-all process object.
 - `Boundary Layer`, not `Permission Ledger`, for authoritative limits and permissions.
 - `Life Graph`, not `Experience Graph`, for the queryable context and relationship engine.
@@ -103,31 +105,41 @@ This map is provisional, but it is the current source of discipline for avoiding
 
 Owns: sourced direction.
 
-Does not own: outcome, request, action, fulfillment, or authority by itself.
+Does not own: outcome, alignment, action, fulfillment, or authority by itself.
 
 Canonical line:
 
 > Intent is sourced direction; Alpha can interpret it, but does not own it.
 
+### Thread
+
+Owns: the organizing reference around Intent, Align, and Outcome.
+
+Does not own: Intent source, the act of aligning, Outcome meaning, artifact content, process state, graph relationships, memory continuity, boundary authority, rendering, provider behavior, execution permission, lifecycle ceremony, or status by default.
+
+Canonical line:
+
+> Thread is the organizing reference for the movement from Intent through Align to Outcome.
+
 ### Outcome
 
-Owns: what would make Intent meaningfully true enough in context.
+Owns: the aligned understanding of what would make Intent meaningfully true enough in context.
 
-Does not own: the living intent, request routing, process execution, or fulfillment.
-
-Canonical line:
-
-> Outcome gives Intent shape.
-
-### Request
-
-Owns: the structured ask for how an actor, capability, system, community, service, or external world could help shape an Outcome.
-
-Does not own: Intent, Outcome, fulfillment, provider selection, or commercial pressure.
+Does not own: the living intent, Thread reference, the act of aligning, process execution, or fulfillment.
 
 Canonical line:
 
-> Request is how Alpha asks an actor or capability to help shape an Outcome.
+> Outcome is aligned understanding of meaningful enoughness.
+
+### Align
+
+Owns: the act of reaching shared understanding between Alpha and the relevant authority.
+
+Does not own: Intent source, Thread reference, Outcome meaning, fulfillment, memory authority, boundary authority, or process state.
+
+Canonical line:
+
+> Align turns Intent into shared understanding.
 
 ### Artifact
 
@@ -266,7 +278,7 @@ Before adding a new concept, primitive, layer, protocol, artifact, module, or im
 - What does it explicitly not own?
 - Which existing part is closest?
 - Does this duplicate another part?
-- Is this a layer, graph, protocol, contract, artifact, state, view, event, or envelope?
+- Is this a layer, thread, graph, protocol, contract, artifact, state, view, event, or envelope?
 - How does it connect to the Life Graph?
 - How does it respect the Boundary Layer?
 - How does it stay provider-agnostic?
@@ -287,16 +299,22 @@ Current resolved decisions:
 - `Permission Ledger` should not be canonical. Use Boundary Layer and related boundary terms.
 - `Intent Object` should not be the canonical name. Use `Intent` for sourced direction, and use Intent Artifact, Intent State, or Intent Context Envelope only when the form requires it.
 - `Outcome Contract` should not be the canonical name. Use `Outcome` for what would make intent meaningfully true enough in context; use Outcome State, Outcome Artifact, Outcome View, or Outcome Protocol when the form requires it.
-- `Demand Object` should not be the canonical name. Use `Request` for how Alpha asks an actor or capability to help shape an Outcome; use Request State, Request Artifact, Request View, or Request Protocol when the form requires it.
+- `Thread` is the canonical organizing reference around Intent, Align, and Outcome. It should not become a project, folder, task list, status machine, chat thread, Life Graph, Process Layer, artifact container, or permission system.
 
-Intent, Outcome, and Request rule:
+Intent, Align, and Outcome rule:
 
+- Every Intent must have a Thread reference. It may open a new Thread or point to an existing Thread when scope is clear.
+- Thread must not become ceremonial. Do not add Thread fields, statuses, approvals, lifecycle machinery, or management rituals just because a Thread exists.
+- Everything in the movement can point to the Thread.
+- Extra relationship claims are preserved only when they help explain meaning, lineage, responsibility, current work, or boundaries.
 - Intent must carry source, authority, scope, and lineage.
 - Human and group intent can be sovereign.
 - Agent intent can only be derived, scoped, explainable, interruptible, and tied to an identifiable agent actor.
 - No intent should be attributed to a generic `Agent` when a specific agent or sub-agent initiated it.
+- Align should stay as flat as possible and only add structure where trust, safety, continuation, coordination, or control requires it.
+- Align includes the important turns in understanding that Alpha may need to explain later; it should not preserve every internal thought, token, or tool call.
 - Outcome must remain inspectable, editable, and aligned with Intent, context, boundaries, and care.
-- Request must remain subordinate to Intent and Outcome; it should never become hidden advertising, forced commerce, or autonomous fulfillment pressure.
+- Outcome is not execution; it is the shared understanding of what would be true enough.
 
 ### 3. Add Through Contracts, Not Coupling
 
@@ -351,7 +369,8 @@ When a concept becomes durable, update the correct docs and keep this file as th
 - Alpha artifacts: `docs/54-alpha-artifacts.md`
 - Artifact grammar: `docs/55-artifact-grammar-and-families.md`
 - Protocol-native provider-agnostic principle: `docs/56-protocol-native-provider-agnostic.md`
-- Intent, Outcome, Request triad: `docs/57-intent-outcome-request.md`
+- Intent, Align, Outcome movement: `docs/57-intent-align-outcome.md`
+- Alpha Threads: `docs/58-alpha-threads.md`
 - Platform primitives: `docs/04-platform-primitives.md`
 - Security and trust: `docs/07-security-and-trust.md`
 - Protocol index: `docs/protocols/00-protocol-index.md`

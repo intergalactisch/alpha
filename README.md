@@ -67,7 +67,7 @@ Foundational architecture law:
 - [Security And Trust](docs/07-security-and-trust.md): why felt safety, sovereignty, consent, and auditability must be native to the paradigm.
 - [Humane Interaction And Sustainability](docs/08-humane-interaction-and-sustainability.md): ease, transparency, deletion, expansion, naturalness, and ecological responsibility.
 - [Cost And Scale](docs/09-cost-and-scale.md): how Alpha should work with the least sufficient compute, cost, complexity, and interface burden while scaling broadly.
-- [Generative Demand](docs/10-generative-demand.md): the shift from finite catalogs and predefined offerings to Request-shaped products, services, media, tools, and systems.
+- [Generative Demand](docs/10-generative-demand.md): the shift from finite catalogs and predefined offerings to intent-shaped products, services, media, tools, and systems.
 - [Working Principles](docs/11-working-principles.md): the current compass for evolving Alpha without freezing it too early.
 - [Post-Advertising](docs/12-post-advertising.md): the shift from interruption, persuasion, and market capture toward care, contribution, and intent-aligned fulfillment.
 - [Optional Reciprocity](docs/13-optional-reciprocity.md): how people, creators, maintainers, communities, and businesses can help and reward each other without coercion.
@@ -80,7 +80,7 @@ Foundational architecture law:
 - [Flowing Media And Shared Joy](docs/20-flowing-media-and-shared-joy.md): music, video, art, play, parties, and entertainment as social, emotional, cultural flows rather than isolated content units.
 - [Memories And Life Continuity](docs/21-memories-and-life-continuity.md): memories as personal and shared life fabric, not platform-owned data.
 - [Graceful Failure And Invisible Complexity](docs/22-graceful-failure-invisible-complexity.md): software should recover, translate, and repair without harassing people with raw errors, bugs, or glitches.
-- [Life Graph](docs/33-interconnected-life-graph.md): the connected layer of life in Alpha; intents, artifacts, memories, contexts, people, processes, boundaries, and outcomes as connected, not isolated.
+- [Life Graph](docs/33-interconnected-life-graph.md): the connected layer of life in Alpha; threads, intents, artifacts, memories, contexts, people, processes, boundaries, and outcomes as connected, not isolated.
 - [Alpha Paradigm Map](docs/23-alpha-paradigm-map.md): a synthesis of the old paradigm Alpha is responding to and the new paradigm it could help invoke.
 - [Alpha Operating Model](docs/24-alpha-operating-model.md): what Alpha should do and how it could work without becoming just another app.
 - [Alpha Possibility Space](docs/25-alpha-possibility-space.md): what Alpha could eventually become across life, business, media, culture, memory, economics, and physical reality.
@@ -99,11 +99,11 @@ Foundational architecture law:
 - [Alpha Kernel](docs/39-alpha-kernel.md): the smallest conceptual conditions that must be true for something to be Alpha-shaped.
 - [Alpha Creation Path](docs/40-alpha-creation-path.md): a staged path from concept to kernel, seed field, prototype, and paradigm proof.
 - [Personal Space Seed Field](docs/41-personal-space-seed-field.md): the current first seed-field direction where Alpha understands personal intent and helps shape a specific outcome.
-- [First Alpha Loop](docs/42-first-alpha-loop.md): the conceptual loop from personal intent to aligned understanding, agreed outcome, fitting form, and cared-for result.
+- [First Alpha Loop](docs/42-first-alpha-loop.md): the conceptual loop from personal intent to aligned understanding, aligned outcome, fitting form, and cared-for result.
 - [Personal Outcome Research](docs/43-personal-outcome-research.md): research synthesis on which personal outcomes best reveal Alpha's first loop.
 - [Personal Environment Deep Dive](docs/44-personal-environment-deep-dive.md): supporting expression of Personal Direction through shaping immediate lived surroundings with care.
 - [Personal Direction Deep Dive](docs/45-personal-direction-deep-dive.md): corrected first personal outcome direction for orchestrating current goals, intentions, and outcomes under the person's own direction.
-- [First Visibility: Personal Intent Space](docs/47-first-visibility-personal-intent-space.md): where Alpha first becomes felt between personal intent, context, agreed outcome, and fitting form.
+- [First Visibility: Personal Intent Space](docs/47-first-visibility-personal-intent-space.md): where Alpha first becomes felt between personal intent, context, aligned outcome, and fitting form.
 - [Personal Intent Boundaries](docs/48-personal-intent-boundaries.md): what Alpha may and may not do inside the first personal intent space.
 - [First Felt Experience](docs/49-first-felt-experience.md): the first Alpha moment where intent becomes clearer, safer, and more shapeable without being captured.
 - [Media-Agnostic Options And Forms](docs/50-media-agnostic-options-and-forms.md): how Alpha can offer editable options through speech, screens, conversation, artifacts, or other fitting media.
@@ -113,7 +113,8 @@ Foundational architecture law:
 - [Alpha Artifacts](docs/54-alpha-artifacts.md): artifacts as small accountable digital handles that can support intent, context, state, memory, boundaries, process, and possible next actions.
 - [Artifact Grammar And Families](docs/55-artifact-grammar-and-families.md): artifact core, families, roles, lineage, visibility, and supporting purpose.
 - [Protocol-Native Provider-Agnostic Alpha](docs/56-protocol-native-provider-agnostic.md): the constitutional architecture principle that Alpha depends on contracts, protocols, and interchangeable capabilities, not any provider.
-- [Intent, Outcome, Request](docs/57-intent-outcome-request.md): the current Alpha triad for sourced direction, meaningful enoughness, and asking an actor or capability to help.
+- [Intent, Align, Outcome](docs/57-intent-align-outcome.md): the current Alpha core movement from sourced direction to shared understanding of meaningful enoughness.
+- [Alpha Threads](docs/58-alpha-threads.md): the organizing reference around Intent, Align, Outcome, and the surrounding work that must stay understandable without ceremony.
 - [MVP Options](docs/mvp/01-mvp-options.md): possible beachheads and wedge products.
 - [Alpha Social Game Master](docs/mvp/02-alpha-social-game-master.md): one vivid MVP probe for the social-life edge of the broader paradigm.
 - [Research Map](docs/research/01-research-map.md): assumptions, questions, and investigation threads.

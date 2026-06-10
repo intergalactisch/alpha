@@ -198,11 +198,12 @@ No real system is literally infinite. But Alpha should be designed as if every o
 - one agent to swarms
 - one business to an ecosystem
 - one media briefing to a knowledge layer
-- one marketplace request to a network of Requests
+- one marketplace need to many possible providers
 
 This requires composable primitives:
 
 - Intent
+- Align
 - Outcome
 - memory containers
 - permission scopes
@@ -210,7 +211,7 @@ This requires composable primitives:
 - action logs
 - experience templates
 - reusable generated interfaces
-- marketplace requests
+- marketplace interactions
 - feedback loops
 
 Each primitive should be forkable, portable, deletable, and permissioned.

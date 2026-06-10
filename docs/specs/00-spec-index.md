@@ -28,13 +28,13 @@ Every Alpha spec should try to state:
 ## Candidate Future Specs
 
 - Intent Spec
+- Thread Spec
 - Context Spec
 - Personal Intent Space Spec
 - Memory Consent Spec
 - Life Graph Clustering Spec
 - Process State Spec
 - Artifact Spec
-- Request Spec
 - Boundary Layer Spec
 - Media-Agnostic Option Spec
 - Child Interaction Spec

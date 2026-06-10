@@ -549,4 +549,4 @@ The Alpha-shaped rule:
 
 Media-agnostic Alpha means:
 
-> Alpha can shape intent through the medium rich enough to help well in the moment, while keeping options visible or speakable, editable, and never final unless agreed.
+> Alpha can shape intent through the medium rich enough to help well in the moment, while keeping options visible or speakable, editable, and never final unless accepted.

@@ -12,7 +12,7 @@ It is a way to make artifacts concrete enough to think with, without turning Alp
 
 An Alpha artifact is a digitally handleable result shaped by Alpha.
 
-It may be directly requested, co-shaped with a person, or created by Alpha from findings, analysis, events, non-events, behavior, repeated friction, changing context, safety signals, or emerging patterns.
+It may be directly asked for, co-shaped with a person, or created by Alpha from findings, analysis, events, non-events, behavior, repeated friction, changing context, safety signals, or emerging patterns.
 
 The artifact itself is digital and handleable.
 
@@ -20,7 +20,7 @@ What it holds, represents, supports, or coordinates can be real-world, social, e
 
 ## Core Definition
 
-> An Alpha artifact is a small accountable handle, surrounded by Life Graph context, Boundary Layer authority, and rendering.
+> An Alpha artifact is a small accountable handle, surrounded by Thread scope, Life Graph context, Boundary Layer authority, and rendering.
 
 Shorter:
 
@@ -59,11 +59,11 @@ A learning path is not learning.
 
 A memory artifact is not the memory itself.
 
-## Requested, Co-Shaped, And Alpha-Originated
+## User-Initiated, Co-Shaped, And Alpha-Originated
 
 Artifacts can originate in different ways.
 
-### Requested
+### User-Initiated
 
 A person asks Alpha to make or shape something.
 
@@ -224,6 +224,7 @@ Artifacts may also include local fields when useful:
 - `summary`
 - `references`
 - `owner_or_scope`
+- `thread_ref`
 - `local_context`
 - `intent_ref`
 - `origin_intent`
@@ -231,6 +232,8 @@ Artifacts may also include local fields when useful:
 These should not be mandatory for every artifact.
 
 Context is always relevant, but not always stored inside the artifact core.
+
+Thread scope is often relevant, but the artifact does not own the Thread.
 
 Intent shapes artifacts, but purpose explains why the artifact exists.
 
@@ -345,7 +348,7 @@ They may remain behind the scenes until they become relevant.
 
 ## 3. Outcome Artifacts
 
-Outcome artifacts hold an agreed or emerging result, direction, decision, or expression of what good would look like.
+Outcome artifacts hold an aligned or emerging result, direction, decision, or expression of what good would look like.
 
 They are not the outcome itself.
 
@@ -353,7 +356,7 @@ They help make outcome alignment visible.
 
 Examples:
 
-- agreed direction
+- aligned direction
 - decision result
 - success shape
 - acceptance criteria in human language
@@ -483,7 +486,7 @@ They support budgets, demand, offers, costs, reciprocity, sponsorship, livelihoo
 Examples:
 
 - budget sketch
-- custom product request
+- custom product inquiry
 - sponsorship note
 - value exchange
 - business model sketch
@@ -526,7 +529,7 @@ Examples:
 - `ask me first`
 - child-safety boundary
 - revocation record
-- transparency request
+- transparency question
 - `do not use this later`
 - `never share this`
 
@@ -761,7 +764,7 @@ Alpha should be able to explain:
 
 > Artifacts make meaning handleable.
 
-> An artifact is a small accountable handle, surrounded by Life Graph context, Boundary Layer authority, and rendering.
+> An artifact is a small accountable handle, surrounded by Thread scope, Life Graph context, Boundary Layer authority, and rendering.
 
 > Alpha should measure artifacts by the life they help, not by their existence.
 

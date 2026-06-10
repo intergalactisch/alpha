@@ -236,7 +236,7 @@ Alpha-shaped thinking means:
 - staying quiet when no action is better
 - gently suggesting rest, music, stopping, or returning to the room when that seems more fitting
 
-Fast action is allowed when the context is simple, low-risk, and already agreed.
+Fast action is allowed when the context is simple, low-risk, and already aligned.
 
 But speed should never become Alpha's default value.
 

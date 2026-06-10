@@ -74,7 +74,7 @@ The self-concordance model argues that people pursue goals more sustainably when
 
 Alpha implication:
 
-> The agreed outcome should not merely be useful. It should feel like it belongs to the person's own intent and becoming.
+> The aligned outcome should not merely be useful. It should feel like it belongs to the person's own intent and becoming.
 
 Sources:
 
@@ -111,7 +111,7 @@ Implementation intention research shows that goal intentions often fail unless p
 
 Alpha implication:
 
-> Once an outcome is agreed, Alpha may help create a small fitting form that connects intent to action. But this should come after aligned understanding, not before.
+> Once an outcome is aligned, Alpha may help create a small fitting form that connects intent to action. But this should come after aligned understanding, not before.
 
 Source:
 
@@ -404,7 +404,7 @@ The stronger first field is:
 
 Personal Direction means:
 
-> helping a person orchestrate their current goals, intentions, projects, transitions, and things they want to do into aligned, agreed, cared-for outcomes, under their own direction and in their own way.
+> helping a person orchestrate their current goals, intentions, projects, transitions, and things they want to do into aligned, cared-for outcomes, under their own direction and in their own way.
 
 Personal Environment remains important, but as one expression of Personal Direction.
 
@@ -461,7 +461,7 @@ The deeper outcome is:
 
 The first Alpha-shaped personal outcome may be:
 
-> a person's current direction becoming clear, agreed, and cared-for enough to move in their own way.
+> a person's current direction becoming clear, aligned, and cared-for enough to move in their own way.
 
 Personal Environment is one possible expression of that:
 

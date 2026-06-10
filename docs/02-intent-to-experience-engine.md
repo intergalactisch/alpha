@@ -47,11 +47,17 @@ Examples:
 - "Help me understand and act on the information that matters this week."
 - "Represent my demand in the market without letting ads shape it first."
 
-### Outcome State
+### Align
 
-The system's operational interpretation of the intent.
+The act of reaching shared understanding between Alpha and the relevant authority.
 
-An outcome state includes:
+Align checks whether Alpha understands the intent in context, with the right boundaries, assumptions, and uncertainty.
+
+### Outcome
+
+The aligned understanding of what would make the intent meaningfully true enough in context.
+
+An outcome may include:
 
 - Desired feeling.
 - Desired behavior.
@@ -61,27 +67,6 @@ An outcome state includes:
 - Risk boundaries.
 - Success signals.
 - Anti-goals.
-
-### Request
-
-The structured expression of what an internal or external actor, capability, system, community, service, or world could provide, create, modify, coordinate, answer, decline, or avoid in response to Intent and Outcome.
-
-This is broader than shopping.
-
-A Request could point toward:
-
-- a custom product
-- a service
-- a generated tool
-- a business workflow
-- a media experience
-- a course of learning
-- a community process
-- a game
-- an institutional action
-- a physical-world arrangement
-
-Request protects Intent before markets, platforms, feeds, or institutions force it into their predefined menus.
 
 ### Experience
 

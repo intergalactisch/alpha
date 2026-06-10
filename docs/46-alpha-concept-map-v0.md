@@ -304,7 +304,7 @@ The paradigm is the ordering:
 2. context
 3. care
 4. aligned understanding
-5. agreed outcome
+5. aligned outcome
 6. fitting form
 7. askable, reversible, cared-for result
 
@@ -321,7 +321,7 @@ But because people must first feel:
 - this is under my command
 - this does not push me
 - this can help me create or manage an outcome
-- this result is aligned and agreed upon
+- this result is aligned
 - this can disappear when I want life, not software
 
 The first visibility should make Alpha felt before it becomes large.

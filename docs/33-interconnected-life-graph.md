@@ -32,6 +32,7 @@ It is part of how Alpha understands:
 
 - where things are
 - what they are connected to
+- which Thread scopes the current movement
 - which artifacts came from which intents
 - which processes are moving or waiting
 - which boundaries apply
@@ -75,6 +76,8 @@ The graph should make many relationship and context questions cheap enough to as
 
 The Life Graph should help Alpha answer:
 
+- Which Thread does this belong to?
+- Which Intents, Align, Outcomes, artifacts, process states, agents, and boundaries are connected around this Thread?
 - Which artifacts came from this intent?
 - Which processes are blocked by the same boundary?
 - Which artifacts, people, contexts, and outcomes are connected to this situation?
@@ -125,6 +128,7 @@ Nodes are the things that can participate in the graph.
 
 Possible node families include:
 
+- threads
 - artifacts
 - intents
 - people
@@ -172,10 +176,19 @@ It is a contextual claim.
 Examples:
 
 - this artifact came from this intent
+- this Intent opened this Thread
+- this understanding changed around this Thread
+- this Outcome belongs to this Thread
+- this Outcome answers this Intent
+- this Outcome was shaped by Align
 - this process is blocked by this boundary
 - this memory representation is sensitive in this context
 - this preference applies to this period, not forever
 - this artifact belongs to this shared group context
+- this artifact belongs to this Thread
+- this artifact supports this Outcome
+- this process state belongs to this Thread
+- this process state serves this Outcome
 - this outcome was shaped by these three intents
 - this provider contributed to this generated artifact
 - this specific agent initiated this derived intent
@@ -186,9 +199,14 @@ Examples:
 Possible relationship claim types:
 
 - `related_to`
+- `opens`
 - `derived_from`
+- `answers`
+- `settled_by`
 - `supports`
+- `serves`
 - `blocked_by`
+- `waits_on`
 - `belongs_to`
 - `shared_with`
 - `supersedes`
@@ -207,6 +225,14 @@ These types are provisional.
 The important principle:
 
 > Relationships are queryable claims.
+
+The Life Graph does not decide meaning by itself.
+
+It stores and queries relationship claims created, proposed, corrected, rejected, or confirmed by the person, relevant authority, Align, agents within scope, Process Layer, Boundary Layer, artifacts, providers, tools, or explicit correction.
+
+Thread provides required scope.
+
+Direct links explain meaning, lineage, responsibility, and current work.
 
 Relationship claims may include local context when needed:
 
@@ -303,6 +329,8 @@ Possible views:
 - personal view
 - shared view
 - current intent view
+- Thread View
+- Open Work View
 - artifact lineage view
 - boundary and safety view
 - process view
@@ -425,6 +453,12 @@ A shared Life Graph may emerge around:
 - trip
 - collaboration
 
+A personal or shared Thread can provide scoped continuity inside those graphs.
+
+Thread does not merge lives.
+
+It gives Alpha a consented reference for the movement around Intent, Align, Outcome, artifacts, process states, agents, and boundaries.
+
 A shared Life Graph should not expose each person's private graph.
 
 It should hold only the shared overlap:
@@ -457,7 +491,7 @@ An Alpha may share:
 - relevant location preference
 - proposed options
 - shared artifact references
-- agreed next steps
+- consented next steps
 
 It should not share:
 
@@ -592,7 +626,7 @@ An Alpha-shaped Life Graph is healthy when:
 
 The question is not:
 
-> What did this single request produce?
+> What did this single ask produce?
 
 The question is:
 

@@ -218,7 +218,7 @@ or:
 
 > This looks less relevant now that you changed direction. Should I pause it?
 
-For low-impact work, Alpha may reorder within agreed boundaries.
+For low-impact work, Alpha may reorder within consented boundaries.
 
 For high-impact work, Alpha should ask.
 
@@ -373,7 +373,7 @@ Example:
 
 If independent work can continue without crossing the steer-point, Alpha may continue that independent work.
 
-But it should not cross the decision itself without the user's input unless a default has been agreed or the consequence is clearly low.
+But it should not cross the decision itself without the user's input unless a default has been accepted or the consequence is clearly low.
 
 ### Approval Gate
 

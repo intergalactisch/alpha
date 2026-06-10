@@ -17,6 +17,7 @@ No provider should define the envelope's meaning.
 An Intent Context Envelope carries enough information for a person, agent, tool, artifact, or process to understand:
 
 - who or what is sending or acting
+- which Thread scopes the movement
 - where the intent came from
 - what authority it has
 - what the person may mean
@@ -53,6 +54,18 @@ The actor field should include enough information to understand:
 - capability contract
 - parent or spawning actor when relevant
 - provider or model adapter when relevant
+
+### `thread`
+
+The organizing reference around the current Intent, Align, and Outcome.
+
+Every Intent should carry a Thread reference.
+
+The envelope should carry enough Thread reference to prevent parts from acting as if the current work is an isolated prompt, task, or artifact.
+
+Thread reference should not expose the raw Life Graph.
+
+It should identify the movement enough to preserve authority, boundaries, and explainability.
 
 ### `intent_source`
 
@@ -134,6 +147,10 @@ This could be asking, drafting, waiting, showing options, doing nothing, startin
     "capability_contract": "optional",
     "authority_scope": "none | suggest | draft | prepare | act_with_approval | act_within_scope"
   },
+  "thread": {
+    "id": "thread_scoped_id",
+    "label": "optional human-readable scope label"
+  },
   "intent_source": {
     "source_actor_id": "actor_scoped_id",
     "source_type": "spoken | inferred | derived | delegated | boundary_triggered | process_triggered | context_triggered",
@@ -153,7 +170,7 @@ This could be asking, drafting, waiting, showing options, doing nothing, startin
   },
   "outcome": {
     "summary": "Human-readable desired outcome",
-    "status": "exploring | proposed | agreed | shaping | completed | revised"
+    "status": "exploring | proposed | aligned | active | fulfilled | revised | obsolete | abandoned"
   },
   "permissions": {
     "allowed_actions": [],

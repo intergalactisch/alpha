@@ -8,7 +8,7 @@ This document captures the current answer to:
 
 Current answer:
 
-> Alpha should first become visible in a person's personal space, where it can help create an aligned and agreed-upon understanding and result of the user's intent in their world around them.
+> Alpha should first become visible in a person's personal space, where it can help create an aligned understanding and result of the user's intent in their world around them.
 
 This is not an MVP spec.
 
@@ -208,14 +208,14 @@ The outcome should not be merely:
 
 The outcome should be:
 
-> the aligned and agreed-upon understanding and result of the user's intent.
+> the aligned understanding and result of the user's intent.
 
 This means Alpha first helps clarify what the person means, then both the person and Alpha arrive at a shared understanding of what result would honor that intent.
 
 The result should feel:
 
 - understood
-- agreed
+- aligned
 - specific enough to shape
 - flexible enough to evolve
 - bounded enough to protect agency

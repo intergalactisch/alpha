@@ -40,8 +40,8 @@ Alpha protocols should:
 - Agent-To-Agent Protocol
 - Agent Identity Protocol
 - Human-To-Alpha Interaction Protocol
+- Thread Protocol
 - Artifact Protocol
-- Request Protocol
 - Process State Protocol
 - Queue And Waiting Protocol
 - Memory Access Protocol

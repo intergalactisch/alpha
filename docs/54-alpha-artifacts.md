@@ -20,7 +20,7 @@ Shorter:
 
 An artifact is a handle, not a container for the whole system.
 
-It can represent, reference, or activate intent, context, memory material, process state, boundaries, relationships, or outcomes.
+It can represent, reference, or activate Thread scope, intent, context, memory material, process state, boundaries, relationships, or outcomes.
 
 It does not own those responsibilities.
 
@@ -284,7 +284,7 @@ A Process Artifact can make that work handleable.
 
 A Process View can show it.
 
-The Life Graph connects it to intent, boundaries, tools, people, and outcomes.
+The Life Graph connects it to Thread scope, intent, boundaries, tools, people, and outcomes.
 
 When useful, Alpha should expose process state calmly.
 
@@ -335,7 +335,7 @@ It means the artifact is not trapped inside one interface.
 
 An artifact can invite action, but should not force action.
 
-The available actions are derived by Alpha from artifact type, status, Life Graph context, Boundary Layer authority, Process State, and current medium.
+The available actions are derived by Alpha from artifact type, status, Thread scope, Life Graph context, Boundary Layer authority, Process State, and current medium.
 
 Possible next actions might include:
 
@@ -423,7 +423,7 @@ Their artifacts should leave room to grow.
 
 Artifacts may become economic.
 
-A business concept, service request, design, course, product, event, or creative work can become part of livelihood.
+A business concept, service inquiry, design, course, product, event, or creative work can become part of livelihood.
 
 But Alpha should not turn every artifact into monetization pressure.
 

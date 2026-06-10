@@ -18,7 +18,7 @@ The warmer name for this is:
 
 Personal Direction means:
 
-> a private, care-bound way for a person to bring what they want to do now into aligned, agreed, and cared-for outcomes, under their own direction and in their own way.
+> a private, care-bound way for a person to bring what they want to do now into aligned, cared-for outcomes, under their own direction and in their own way.
 
 This can include productivity, but it is not productivity software.
 
@@ -222,7 +222,7 @@ An Alpha-shaped Personal Direction outcome should feel:
 - mine
 - clear
 - alive
-- agreed
+- aligned
 - possible
 - cared-for
 - flexible
@@ -362,7 +362,7 @@ Alpha uses the smallest sufficient support and does not take over.
 
 The first Alpha-shaped personal outcome should be:
 
-> a person's current direction becoming clear, agreed, and cared-for enough to move in their own way.
+> a person's current direction becoming clear, aligned, and cared-for enough to move in their own way.
 
 In this context, "shape" does not only mean making something tangible, physical, or fixed.
 
