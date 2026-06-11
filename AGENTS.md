@@ -316,6 +316,7 @@ Current resolved decisions:
 - `Intent Object` should not be the canonical name. Use `Intent` for sourced direction, and use Intent Artifact, Intent State, or Intent Context Envelope only when the form requires it.
 - `Outcome Contract` should not be the canonical name. Use `Outcome` for what would make intent meaningfully true enough in context; use Outcome State, Outcome Artifact, Outcome View, or Outcome Protocol when the form requires it.
 - `Thread` is the canonical organizing reference around Intent, Align, and Outcome. It should not become a project, folder, task list, status machine, chat thread, Life Graph, Activity Layer, artifact container, or permission system.
+- `Alpha Flow` should not become a canonical primitive. Use it as the synthesis model for how Alpha parts move together without turning life into software administration.
 
 Intent, Align, and Outcome rule:
 
@@ -387,6 +388,7 @@ When a concept becomes durable, update the correct docs and keep this file as th
 - Protocol-native provider-agnostic principle: `docs/56-protocol-native-provider-agnostic.md`
 - Intent, Align, Outcome movement: `docs/57-intent-align-outcome.md`
 - Alpha Threads: `docs/58-alpha-threads.md`
+- Alpha Flow: `docs/59-alpha-flow.md`
 - Platform primitives: `docs/04-platform-primitives.md`
 - Security and trust: `docs/07-security-and-trust.md`
 - Protocol index: `docs/protocols/00-protocol-index.md`

@@ -12,6 +12,8 @@ It is not a UI sequence.
 
 It describes the conceptual movement from personal intent to cared-for outcome.
 
+For the broader current synthesis of how Alpha parts move together, see [Alpha Flow](59-alpha-flow.md).
+
 ## Loop Sentence
 
 The first Alpha loop is:

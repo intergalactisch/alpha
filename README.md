@@ -115,6 +115,7 @@ Foundational architecture law:
 - [Protocol-Native Provider-Agnostic Alpha](docs/56-protocol-native-provider-agnostic.md): the constitutional architecture principle that Alpha depends on contracts, protocols, and interchangeable capabilities, not any provider.
 - [Intent, Align, Outcome](docs/57-intent-align-outcome.md): the current Alpha core movement from sourced direction to shared understanding of meaningful enoughness.
 - [Alpha Threads](docs/58-alpha-threads.md): the organizing reference around Intent, Align, Outcome, and the surrounding work that must stay understandable without ceremony.
+- [Alpha Flow](docs/59-alpha-flow.md): how Alpha's parts move together without turning life into software administration.
 - [MVP Options](docs/mvp/01-mvp-options.md): possible beachheads and wedge products.
 - [Alpha Social Game Master](docs/mvp/02-alpha-social-game-master.md): one vivid MVP probe for the social-life edge of the broader paradigm.
 - [Research Map](docs/research/01-research-map.md): assumptions, questions, and investigation threads.
